@@ -1,0 +1,1 @@
+ents.register("multi_manager",{"multi_manager"},Entity.TYPE_LOCAL)

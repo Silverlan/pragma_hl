@@ -1,0 +1,1 @@
+ents.register("func_door",{"func_door"},Entity.TYPE_SHARED)

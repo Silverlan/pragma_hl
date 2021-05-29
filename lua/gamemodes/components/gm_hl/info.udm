@@ -1,0 +1,8 @@
+"hl"
+{
+	$string component_name "gm_hl"
+	$string name "Half-Life Campaign"
+	$string author "Silverlan"
+	$float version 0.1
+	$string initial_map "c0a0"
+}

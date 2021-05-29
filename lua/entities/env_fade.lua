@@ -1,0 +1,1 @@
+ents.register("env_fade",{"env_fade"},Entity.TYPE_SHARED)

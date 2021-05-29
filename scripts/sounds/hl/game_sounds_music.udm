@@ -1,0 +1,448 @@
+"HL1_Music.track_2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life01.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Prospero01_0.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_4"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life12.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_5"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life07.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_6"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life10.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_7"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Suspense01.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_8"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Suspense03.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_9"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life09.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_10"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life02.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_11"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life13.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_12"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life04.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_13"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life15.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_14"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life14.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_15"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life16.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_16"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Suspense02.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_17"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life03.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_18"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life08.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_19"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 1.000000
+			$string source "music/Prospero02.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_20"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life05.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_21"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Prospero04.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_22"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life11.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_23"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life06.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_24"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Prospero03.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_25"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Half-Life17.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_26"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Prospero05.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_27"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Suspense05.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_28"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Suspense07.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_3_0"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Prospero01_0.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_3_a"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Prospero01_a.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_3_b"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Prospero01_b.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_3_c"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Prospero01_c.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}
+"HL1_Music.track_3_d"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/Prospero01_d.mp3"
+			$bool stream 1
+			$bool global 1
+			$string mode mono
+		}
+	]
+}

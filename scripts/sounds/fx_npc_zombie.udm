@@ -1,0 +1,169 @@
+"npc_zombie.attack_hit"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.05]
+			$string mode "mono"
+			$array source [string][
+				"zombie/claw_strike1.wav",
+				"zombie/claw_strike2.wav",
+				"zombie/claw_strike3.wav"
+			]
+		}
+	]
+}
+
+"npc_zombie.attack_miss"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.05]
+			$string mode "mono"
+			$array source [string][
+				"zombie/claw_miss1.wav",
+				"zombie/claw_miss2.wav"
+			]
+		}
+	]
+}
+
+"npc_zombie.attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.05]
+			$string mode "mono"
+			$array source [string][
+				"zombie/zo_attack1.wav",
+				"zombie/zo_attack2.wav"
+			]
+		}
+	]
+}
+
+"npc_zombie.idle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.05]
+			$string mode "mono"
+			$array source [string][
+				"zombie/zo_idle1.wav",
+				"zombie/zo_idle2.wav",
+				"zombie/zo_idle3.wav",
+				"zombie/zo_idle4.wav"
+			]
+		}
+	]
+}
+
+"npc_zombie.alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.04]
+			$string mode "mono"
+			$array source [string][
+				"zombie/zo_alert10.wav",
+				"zombie/zo_alert20.wav",
+				"zombie/zo_alert30.wav"
+			]
+		}
+	]
+}
+
+"npc_zombie.pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.04]
+			$string mode "mono"
+			$array source [string][
+				"zombie/zo_pain1.wav",
+				"zombie/zo_pain2.wav"
+			]
+		}
+	]
+}
+
+"npc_zombie.walk_step_left"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.05]
+			$string mode "mono"
+			$string source "common/npc_step1.wav"
+		}
+	]
+}
+
+"npc_zombie.walk_step_right"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.05]
+			$string mode "mono"
+			$string source "common/npc_step3.wav"
+		}
+	]
+}
+
+"npc_zombie.run_step_left"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.05]
+			$string mode "mono"
+			$string source "common/npc_step2.wav"
+		}
+	]
+}
+
+"npc_zombie.run_step_right"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.05]
+			$string mode "mono"
+			$string source "common/npc_step4.wav"
+		}
+	]
+}
+
+"npc_zombie.bodydrop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$vec2 pitch [0.95,1.05]
+			$string mode "mono"
+			$array source [string][
+				"common/bodydrop1.wav",
+				"common/bodydrop2.wav",
+				"common/bodydrop3.wav",
+				"common/bodydrop4.wav"
+			]
+		}
+	]
+}

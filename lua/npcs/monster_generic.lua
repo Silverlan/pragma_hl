@@ -1,0 +1,1 @@
+ents.register("monster_generic",{"monster_generic"},Entity.TYPE_SHARED)

@@ -1,0 +1,1 @@
+ents.register("trigger_once",{"trigger_once"})

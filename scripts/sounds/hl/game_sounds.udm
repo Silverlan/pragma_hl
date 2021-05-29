@@ -1,0 +1,5917 @@
+"Loader.Hydra1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "ambience/loader_hydra1.wav"
+			$string mode mono
+		}
+	]
+}
+"Loader.Step1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "ambience/loader_step1.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.Bustflesh2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "debris/bustflesh2.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.Bustmetal1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "debris/bustmetal1.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.Metal6"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "debris/metal6.wav"
+			$string mode mono
+		}
+	]
+}
+"Item.Pickup"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "items/gunpickup2.wav"
+			$string mode mono
+		}
+	]
+}
+"HealthKit.Touch"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "items/smallmedkit1.wav"
+			$string mode mono
+		}
+	]
+}
+"HealthVial.Touch"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1
+			$string source "items/smallmedkit1.wav"
+			$string mode mono
+		}
+	]
+}
+"WallHealth.Deny"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "items/medshotno1.wav"
+			$string mode mono
+		}
+	]
+}
+"WallHealth.Start"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "items/medshot4.wav"
+			$string mode mono
+		}
+	]
+}
+"WallHealth.LoopingContinueCharge"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$string source "items/medcharge4.wav"
+			$string mode mono
+		}
+	]
+}
+"WallHealth.Recharge"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "items/medshot4.wav"
+			$string mode mono
+		}
+	]
+}
+"SuitRecharge.Deny"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.85
+			$string source "items/suitchargeno1.wav"
+			$string mode mono
+		}
+	]
+}
+"SuitRecharge.Start"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.85
+			$string source "items/suitchargeok1.wav"
+			$string mode mono
+		}
+	]
+}
+"SuitRecharge.ChargingLoop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.85
+			$string source "items/suitcharge1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.BustCrate1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "debris/bustcrate1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.BustFlesh1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "debris/bustflesh1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.ButtonBlip1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "buttons/blip1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.ButtonBlip2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "buttons/blip2.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.ButtonLatchLocked1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "buttons/latchlocked1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.ButtonLatchLocked2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "buttons/latchlocked2.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.ButtonLatchUnlocked1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "buttons/latchunlocked1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.ButtonLatchUnlocked2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "buttons/latchunlocked2.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.Electro4"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "weapons/electro4.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.StepLeftWalk"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$vec2 gain [0.6,0.7]
+			$float pitch 0.950000
+			$string source "common/npc_step1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.StepRightWalk"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$vec2 gain [0.6,0.7]
+			$float pitch 0.950000
+			$string source "common/npc_step3.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.StepLeftRun"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$vec2 gain [0.7,0.8]
+			$float pitch 0.950000
+			$string source "common/npc_step2.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC.StepRightRun"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$vec2 gain [0.7,0.8]
+			$float pitch 0.950000
+			$string source "common/npc_step4.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Agrunt.Alert1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "agrunt/ag_alert1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Agrunt.Alert3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "agrunt/ag_alert3.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Barney.Pain1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "barney/ba_pain1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Barney.Pain2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "barney/ba_pain2.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_BigMomma.SpitTouch1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "bullchicken/bc_acid1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_BigMomma.SpitHit1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "bullchicken/bc_spithit1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_BigMomma.SpitHit2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "bullchicken/bc_spithit2.wav"
+			$string mode mono
+		}
+	]
+}
+"Bullsquid.Idle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"bullchicken/bc_idle1.wav",
+				"bullchicken/bc_idle2.wav",
+				"bullchicken/bc_idle3.wav",
+				"bullchicken/bc_idle4.wav",
+				"bullchicken/bc_idle5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bullsquid.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"bullchicken/bc_pain1.wav",
+				"bullchicken/bc_pain2.wav",
+				"bullchicken/bc_pain3.wav",
+				"bullchicken/bc_pain4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bullsquid.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"bullchicken/bc_idle1.wav",
+				"bullchicken/bc_idle2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bullsquid.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"bullchicken/bc_die1.wav",
+				"bullchicken/bc_die2.wav",
+				"bullchicken/bc_die3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bullsquid.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"bullchicken/bc_attack2.wav",
+				"bullchicken/bc_attack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bullsquid.Bite"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"bullchicken/bc_bite2.wav",
+				"bullchicken/bc_bite3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bullsquid.Growl"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"bullchicken/bc_attackgrowl.wav",
+				"bullchicken/bc_attackgrowl2.wav",
+				"bullchicken/bc_attackgrowl3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"NPC_Garg.Attack1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "garg/gar_attack1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Garg.Attack3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "garg/gar_attack3.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.CatScream"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/c1a0_sci_catscream.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.CheckTie"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/weartie.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.Dangling"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/c1a2_sci_dangling.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.DarkRoom"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/c1a2_sci_darkroom.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.DragOff"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/sci_dragoff.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.Pain3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/sci_pain3.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.Pain4"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/sci_pain4.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.Rocket"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/c1a4_sci_rocket.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.Scream02"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/scream02.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.Scream3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/scream3.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.StayBack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/c1a0_sci_stayback.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.Tentacle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "scientist/c1a4_sci_tent.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.VentPull1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "player/pl_metal1.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.VentPull2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "player/pl_metal2.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Scientist.VentPull3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "player/pl_metal4.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Vortigaunt.Word3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "aslave/slv_word3.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Vortigaunt.Word4"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "aslave/slv_word4.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Vortigaunt.Word5"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "aslave/slv_word5.wav"
+			$string mode mono
+		}
+	]
+}
+"NPC_Vortigaunt.Word7"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "aslave/slv_word7.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapons.BulletHit1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "weapons/bullet_hit1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapons.BulletHit2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "weapons/bullet_hit2.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapons.Empty"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$string source "weapons/357_cock1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_357.Single"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"weapons/357_shot1.wav",
+				"weapons/357_shot2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_357.Reload"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "weapons/357_reload1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Crossbow.Single"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.930000
+			$string source "weapons/xbow_fire1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Crossbow.Reload"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$vec2 gain [0.95,1.0]
+			$float pitch 0.930000
+			$string source "weapons/xbow_reload1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Crossbow.BoltHitBody"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$array source [string][
+				"weapons/xbow_hitbod1.wav",
+				"weapons/xbow_hitbod2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_Crossbow.BoltHitWorld"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$vec2 gain [.95,1.0]
+			$float pitch 0.980000
+			$string source "weapons/xbow_hit1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Crowbar.Single"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$string source "weapons/cbar_miss1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Crowbar.Melee_Hit"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.980000
+			$array source [string][
+				"weapons/cbar_hitbod1.wav",
+				"weapons/cbar_hitbod2.wav",
+				"weapons/cbar_hitbod3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_Crowbar.Melee_HitWorld"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.980000
+			$array source [string][
+				"weapons/cbar_hit1.wav",
+				"weapons/cbar_hit2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_Gauss.Spin"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.100000
+			$string source "ambience/pulsemachine.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Gauss.Fire"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.800000
+			$string source "weapons/gauss2.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Gauss.FireUnderWater"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.800000
+			$string source "weapons/electro4.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Gauss.StaticDischarge"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$vec2 gain [0.7,0.8]
+			$array source [string][
+				"weapons/electro4.wav",
+				"weapons/electro5.wav",
+				"weapons/electro6.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_Gauss.Zap1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.800000
+			$string source "weapons/electro4.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Gauss.Zap2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$float pitch 0.750000
+			$string source "weapons/electro6.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Glock.Special1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "items/9mmclip1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Glock.Special2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "items/9mmclip2.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Glock.Single"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$string source "weapons/pl_gun3.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Gluon.Start"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float pitch 0.980000
+			$float gain 1.0
+			$string source "weapons/egon_windup2.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Gluon.Run"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.980000
+			$float gain 1.0
+			$string source "weapons/egon_run3.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Gluon.Off"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float pitch 0.980000
+			$float gain 1.0
+			$string source "weapons/egon_off1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_HandGrenade.GrenadeBounce"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.25
+			$array source [string][
+				"weapons/grenade_hit1.wav",
+				"weapons/grenade_hit2.wav",
+				"weapons/grenade_hit3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_Hornetgun.Single"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$array source [string][
+				"agrunt/ag_fire1.wav",
+				"agrunt/ag_fire2.wav",
+				"agrunt/ag_fire3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_MP5.Single"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.940000
+			$array source [string][
+				"weapons/hks1.wav",
+				"weapons/hks2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_MP5.Double"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.940000
+			$array source [string][
+				"weapons/glauncher.wav",
+				"weapons/glauncher2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_MP5.Special1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "items/cliprelease1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_MP5.Special2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "items/clipinsert1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Shotgun.Reload"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$float pitch 0.850000
+			$array source [string][
+				"weapons/reload1.wav",
+				"weapons/reload3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Weapon_Shotgun.Special1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$string source "weapons/scock1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Shotgun.Single"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.930000
+			$string source "weapons/sbarrel1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Shotgun.Double"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.850000
+			$string source "weapons/dbarrel1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_RPG.Single"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 0.9
+			$string source "weapons/rocketfire1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_RPG.RocketAccelerate"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$string source "weapons/rocket1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_RPG.RocketIgnite"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$string source "weapons/rocket1.wav"
+			$string mode mono
+		}
+	]
+}
+"TripmineGrenade.Deploy"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$string source "weapons/mine_deploy.wav"
+			$string mode mono
+		}
+	]
+}
+"TripmineGrenade.Charge"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "weapons/mine_charge.wav"
+			$string mode mono
+		}
+	]
+}
+"TripmineGrenade.Activate"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.3
+			$float pitch 0.750000
+			$string source "weapons/mine_activate.wav"
+			$string mode mono
+		}
+	]
+}
+"SatchelCharge.Bounce"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"weapons/g_bounce1.wav",
+				"weapons/g_bounce2.wav",
+				"weapons/g_bounce3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MortarField.Trigger"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 0.950000
+			$string source "weapons/mortar.wav"
+			$string mode mono
+		}
+	]
+}
+"XenTree.AttackMiss"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"zombie/claw_miss1.wav",
+				"zombie/claw_miss2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"XenTree.AttackHit"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"zombie/claw_strike1.wav",
+				"zombie/claw_strike2.wav",
+				"zombie/claw_strike3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"GrenadeMP5.Detonate"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.55
+			$float pitch 1.0
+			$array source [string][
+				"weapons/debris1.wav",
+				"weapons/debris2.wav",
+				"weapons/debris3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"FlockingFlyer.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"boid/boid_alert1.wav",
+				"boid/boid_alert2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"FlockingFlyer.Idle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"boid/boid_idle1.wav",
+				"boid/boid_idle2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AlienGrunt.LeftFoot"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 0.700000
+			$array source [string][
+				"player/pl_ladder2.wav",
+				"player/pl_ladder4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AlienGrunt.RightFoot"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 0.700000
+			$array source [string][
+				"player/pl_ladder1.wav",
+				"player/pl_ladder3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AlienGrunt.AttackMiss"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/claw_miss1.wav",
+				"zombie/claw_miss2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AlienGrunt.AttackHit"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/claw_strike1.wav",
+				"zombie/claw_strike2.wav",
+				"zombie/claw_strike3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AlienGrunt.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"agrunt/ag_attack1.wav",
+				"agrunt/ag_attack2.wav",
+				"agrunt/ag_attack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AlienGrunt.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"agrunt/ag_die1.wav",
+				"agrunt/ag_die4.wav",
+				"agrunt/ag_die5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AlienGrunt.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"agrunt/ag_pain1.wav",
+				"agrunt/ag_pain2.wav",
+				"agrunt/ag_pain3.wav",
+				"agrunt/ag_pain4.wav",
+				"agrunt/ag_pain5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AlienGrunt.Idle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"agrunt/ag_idle1.wav",
+				"agrunt/ag_idle2.wav",
+				"agrunt/ag_idle3.wav",
+				"agrunt/ag_idle4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AlienGrunt.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"agrunt/ag_alert1.wav",
+				"agrunt/ag_alert2.wav",
+				"agrunt/ag_alert3.wav",
+				"agrunt/ag_alert4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Apache.FireGun"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 0.9
+			$string source "turret/tu_fire1.wav"
+			$string mode mono
+		}
+	]
+}
+"Apache.Rotor"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "apache/ap_rotor2.wav"
+			$string mode mono
+		}
+	]
+}
+"Apache.RotorSpinup"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "apache/ap_rotor4.wav"
+			$string mode mono
+		}
+	]
+}
+"Apache.RPG"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$string source "weapons/stinger_fire1.wav"
+			$string mode mono
+		}
+	]
+}
+"ApacheHVR.Ignite"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$string source "weapons/rocket1.wav"
+			$string mode mono
+		}
+	]
+}
+"Barney.FirePistol"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "barney/ba_attack2.wav"
+			$string mode mono
+		}
+	]
+}
+"Barney.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"barney/ba_pain1.wav",
+				"barney/ba_pain2.wav",
+				"barney/ba_pain3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Barney.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"barney/ba_die1.wav",
+				"barney/ba_die2.wav",
+				"barney/ba_die3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Barney.Close"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$string source "barney/ba_close.wav"
+			$string mode mono
+		}
+	]
+}
+"BigMomma.AttackMiss"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/claw_miss1.wav",
+				"zombie/claw_miss2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.AttackHit"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/claw_strike1.wav",
+				"zombie/claw_strike2.wav",
+				"zombie/claw_strike3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$array source [string][
+				"gonarch/gon_attack1.wav",
+				"gonarch/gon_attack2.wav",
+				"gonarch/gon_attack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$string source "gonarch/gon_die1.wav"
+			$string mode mono
+		}
+	]
+}
+"BigMomma.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"gonarch/gon_pain2.wav",
+				"gonarch/gon_pain4.wav",
+				"gonarch/gon_pain5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$array source [string][
+				"gonarch/gon_alert1.wav",
+				"gonarch/gon_alert2.wav",
+				"gonarch/gon_alert3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.Birth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$array source [string][
+				"gonarch/gon_birth1.wav",
+				"gonarch/gon_birth2.wav",
+				"gonarch/gon_birth3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.LayHeadcrab"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"gonarch/gon_birth1.wav",
+				"gonarch/gon_birth2.wav",
+				"gonarch/gon_birth3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.Sack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$array source [string][
+				"gonarch/gon_sack1.wav",
+				"gonarch/gon_sack2.wav",
+				"gonarch/gon_sack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.LaunchMortar"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"gonarch/gon_sack1.wav",
+				"gonarch/gon_sack2.wav",
+				"gonarch/gon_sack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.FootstepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$array source [string][
+				"gonarch/gon_step1.wav",
+				"gonarch/gon_step2.wav",
+				"gonarch/gon_step3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.FootstepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$array source [string][
+				"gonarch/gon_step1.wav",
+				"gonarch/gon_step2.wav",
+				"gonarch/gon_step3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BigMomma.ChildDie"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"gonarch/gon_childdie1.wav",
+				"gonarch/gon_childdie2.wav",
+				"gonarch/gon_childdie3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Controller.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"controller/con_pain1.wav",
+				"controller/con_pain2.wav",
+				"controller/con_pain3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Controller.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"controller/con_alert1.wav",
+				"controller/con_alert2.wav",
+				"controller/con_alert3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Controller.Idle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"controller/con_idle1.wav",
+				"controller/con_idle2.wav",
+				"controller/con_idle3.wav",
+				"controller/con_idle4.wav",
+				"controller/con_idle5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Controller.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"controller/con_attack1.wav",
+				"controller/con_attack2.wav",
+				"controller/con_attack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Controller.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"controller/con_die1.wav",
+				"controller/con_die2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Controller.ElectroSound"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "weapons/electro4.wav"
+			$string mode mono
+		}
+	]
+}
+"Garg.Stomp"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "weapons/mine_charge.wav"
+			$string mode mono
+		}
+	]
+}
+"Garg.AttackHit"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.500000
+			$array source [string][
+				"zombie/claw_strike1.wav",
+				"zombie/claw_strike2.wav",
+				"zombie/claw_strike3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Garg.AttackMiss"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.500000
+			$array source [string][
+				"zombie/claw_miss1.wav",
+				"zombie/claw_miss2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Garg.Footstep"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 0.900000
+			$array source [string][
+				"garg/gar_step1.wav",
+				"garg/gar_step2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Garg.Breath"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 0.900000
+			$array source [string][
+				"garg/gar_breathe1.wav",
+				"garg/gar_breathe2.wav",
+				"garg/gar_breathe3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Garg.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"garg/gar_attack1.wav",
+				"garg/gar_attack2.wav",
+				"garg/gar_attack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Garg.BeamAttackOff"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "garg/gar_flameoff1.wav"
+			$string mode mono
+		}
+	]
+}
+"Garg.BeamAttackOn"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "garg/gar_flameon1.wav"
+			$string mode mono
+		}
+	]
+}
+"Garg.BeamAttackRun"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "garg/gar_flamerun1.wav"
+			$string mode mono
+		}
+	]
+}
+"Garg.StompSound"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 0.900000
+			$string source "garg/gar_stomp1.wav"
+			$string mode mono
+		}
+	]
+}
+"Garg.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"garg/gar_pain1.wav",
+				"garg/gar_pain2.wav",
+				"garg/gar_pain3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HAssassin.Shot"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$vec2 gain [0.6,0.8]
+			$float pitch 1.0
+			$array source [string][
+				"weapons/pl_gun1.wav",
+				"weapons/pl_gun2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HAssassin.Beamsound"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$float pitch 1.0
+			$string source "debris/beamstart1.wav"
+			$string mode mono
+		}
+	]
+}
+"HAssassin.Footstep"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.5
+			$float pitch 1.0
+			$array source [string][
+				"player/pl_step1.wav",
+				"player/pl_step2.wav",
+				"player/pl_step3.wav",
+				"player/pl_step4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Headcrab.Bite"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "headcrab/hc_headbite.wav"
+			$string mode mono
+		}
+	]
+}
+"Headcrab.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"headcrab/hc_attack1.wav",
+				"headcrab/hc_attack2.wav",
+				"headcrab/hc_attack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Headcrab.Idle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"headcrab/hc_idle1.wav",
+				"headcrab/hc_idle2.wav",
+				"headcrab/hc_idle3.wav",
+				"headcrab/hc_idle4.wav",
+				"headcrab/hc_idle5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Headcrab.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"headcrab/hc_die1.wav",
+				"headcrab/hc_die2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Headcrab.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "headcrab/hc_alert1.wav"
+			$string mode mono
+		}
+	]
+}
+"Headcrab.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"headcrab/hc_pain1.wav",
+				"headcrab/hc_pain2.wav",
+				"headcrab/hc_pain3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HGrunt.Reload"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "hgrunt/gr_reload1.wav"
+			$string mode mono
+		}
+	]
+}
+"HGrunt.GrenadeLaunch"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 0.8
+			$float pitch 1.0
+			$string source "weapons/glauncher.wav"
+			$string mode mono
+		}
+	]
+}
+"HGrunt.9MM"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"hgrunt/gr_mgun1.wav",
+				"hgrunt/gr_mgun2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HGrunt.Shotgun"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "weapons/sbarrel1.wav"
+			$string mode mono
+		}
+	]
+}
+"HGrunt.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"hgrunt/gr_pain1.wav",
+				"hgrunt/gr_pain2.wav",
+				"hgrunt/gr_pain3.wav",
+				"hgrunt/gr_pain4.wav",
+				"hgrunt/gr_pain5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HGrunt.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"hgrunt/gr_die1.wav",
+				"hgrunt/gr_die2.wav",
+				"hgrunt/gr_die3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Hornet.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"hornet/ag_hornethit1.wav",
+				"hornet/ag_hornethit2.wav",
+				"hornet/ag_hornethit3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Hornet.Buzz"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.8
+			$float pitch 1.0
+			$array source [string][
+				"hornet/ag_buzz1.wav",
+				"hornet/ag_buzz2.wav",
+				"hornet/ag_buzz3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HoundEye.Idle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"houndeye/he_idle1.wav",
+				"houndeye/he_idle2.wav",
+				"houndeye/he_idle3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HoundEye.Hunt"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"houndeye/he_hunt1.wav",
+				"houndeye/he_hunt2.wav",
+				"houndeye/he_hunt3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HoundEye.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"houndeye/he_alert1.wav",
+				"houndeye/he_alert2.wav",
+				"houndeye/he_alert3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HoundEye.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"houndeye/he_die1.wav",
+				"houndeye/he_die2.wav",
+				"houndeye/he_die3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HoundEye.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"houndeye/he_pain3.wav",
+				"houndeye/he_pain4.wav",
+				"houndeye/he_pain5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HoundEye.Anger1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "houndeye/he_pain3.wav"
+			$string mode mono
+		}
+	]
+}
+"HoundEye.Anger2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "houndeye/he_pain1.wav"
+			$string mode mono
+		}
+	]
+}
+"HoundEye.Sonic"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"houndeye/he_blast1.wav",
+				"houndeye/he_blast2.wav",
+				"houndeye/he_blast3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"HoundEye.Warn"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"houndeye/he_attack1.wav",
+				"houndeye/he_attack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Ichthyosaur.Bite"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"ichy/ichy_bite1.wav",
+				"ichy/ichy_bite2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Ichthyosaur.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"ichy/ichy_alert1.wav",
+				"ichy/ichy_alert2.wav",
+				"ichy/ichy_alert3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Ichthyosaur.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"ichy/ichy_pain1.wav",
+				"ichy/ichy_pain2.wav",
+				"ichy/ichy_pain3.wav",
+				"ichy/ichy_pain5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Ichthyosaur.Idle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"ichy/ichy_idle1.wav",
+				"ichy/ichy_idle2.wav",
+				"ichy/ichy_idle3.wav",
+				"ichy/ichy_idle4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Ichthyosaur.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"ichy/ichy_die1.wav",
+				"ichy/ichy_die2.wav",
+				"ichy/ichy_die3.wav",
+				"ichy/ichy_die4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Ichthyosaur.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"ichy/ichy_attack1.wav",
+				"ichy/ichy_attack2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Leech.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"leech/leech_bite1.wav",
+				"leech/leech_bite2.wav",
+				"leech/leech_bite3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Leech.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"leech/leech_alert1.wav",
+				"leech/leech_alert2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Nihilanth.PainLaugh"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"X/x_laugh1.wav",
+				"X/x_laugh2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Nihilanth.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"X/x_pain1.wav",
+				"X/x_pain2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Nihilanth.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "X/x_die1.wav"
+			$string mode mono
+		}
+	]
+}
+"Nihilanth.FriendBeam"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "debris/beamstart7.wav"
+			$string mode mono
+		}
+	]
+}
+"Nihilanth.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"X/x_attack1.wav",
+				"X/x_attack2.wav",
+				"X/x_attack3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Nihilanth.BallAttack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "X/x_ballattack1.wav"
+			$string mode mono
+		}
+	]
+}
+"Nihilanth.Recharge"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"X/x_recharge1.wav",
+				"X/x_recharge2.wav",
+				"X/x_recharge3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"NihilanthHVR.Zap"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "debris/zap4.wav"
+			$string mode mono
+		}
+	]
+}
+"NihilanthHVR.TeleAttack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "x/x_teleattack1.wav"
+			$string mode mono
+		}
+	]
+}
+"Scientist.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"scientist/sci_pain1.wav",
+				"scientist/sci_pain2.wav",
+				"scientist/sci_pain3.wav",
+				"scientist/sci_pain4.wav",
+				"scientist/sci_pain5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Snark.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.5
+			$float pitch 1.0
+			$string source "squeek/sqk_blast1.wav"
+			$string mode mono
+		}
+	]
+}
+"Snark.Gibbed"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.75
+			$float pitch 2.000000
+			$string source "common/bodysplat.wav"
+			$string mode mono
+		}
+	]
+}
+"Snark.Squeak"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "squeek/sqk_die1.wav"
+			$string mode mono
+		}
+	]
+}
+"Snark.Deploy"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$string source "squeek/sqk_deploy1.wav"
+			$string mode mono
+		}
+	]
+}
+"Snark.Bounce"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"squeek/sqk_hunt1.wav",
+				"squeek/sqk_hunt2.wav",
+				"squeek/sqk_hunt3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tentacle.Flies"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.5
+			$string source "ambience/flies.wav"
+			$string mode mono
+		}
+	]
+}
+"Tentacle.Squirm"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.7
+			$string source "ambience/squirm2.wav"
+			$string mode mono
+		}
+	]
+}
+"Tentacle.Sing"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.7
+			$array source [string][
+				"tentacle/te_sing1.wav",
+				"tentacle/te_sing2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tentacle.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.7
+			$array source [string][
+				"tentacle/te_alert1.wav",
+				"tentacle/te_alert2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tentacle.HitSilo"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$vec2 gain [0.5,0.7]
+			$array source [string][
+				"tentacle/te_strike1.wav",
+				"tentacle/te_strike2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tentacle.HitDirt"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$vec2 gain [0.4,0.5]
+			$array source [string][
+				"player/pl_dirt1.wav",
+				"player/pl_dirt2.wav",
+				"player/pl_dirt3.wav",
+				"player/pl_dirt4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tentacle.HitWater"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$vec2 gain [0.4,0.5]
+			$array source [string][
+				"player/pl_slosh1.wav",
+				"player/pl_slosh2.wav",
+				"player/pl_slosh3.wav",
+				"player/pl_slosh4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tentacle.Roar"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$array source [string][
+				"tentacle/te_roar1.wav",
+				"tentacle/te_roar2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tentacle.Search"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$array source [string][
+				"tentacle/te_search1.wav",
+				"tentacle/te_search2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tentacle.Swing"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.88
+			$array source [string][
+				"tentacle/te_move1.wav",
+				"tentacle/te_move2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tentacle.Death"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.98
+			$string source "tentacle/te_death2.wav"
+			$string mode mono
+		}
+	]
+}
+"Turret.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.65
+			$string source "turret/tu_alert.wav"
+			$string mode mono
+		}
+	]
+}
+"Turret.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.65
+			$array source [string][
+				"turret/tu_die.wav",
+				"turret/tu_die2.wav",
+				"turret/tu_die3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Turret.Spinup"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.65
+			$string source "turret/tu_active2.wav"
+			$string mode mono
+		}
+	]
+}
+"Turret.Deploy"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.65
+			$string source "turret/tu_deploy.wav"
+			$string mode mono
+		}
+	]
+}
+"Turret.Undeploy"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.65
+			$float pitch 1.200000
+			$string source "turret/tu_deploy.wav"
+			$string mode mono
+		}
+	]
+}
+"Turret.Ping"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.9
+			$string source "turret/tu_ping.wav"
+			$string mode mono
+		}
+	]
+}
+"Turret.Shoot"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$string source "turret/tu_fire1.wav"
+			$string mode mono
+		}
+	]
+}
+"Turret.SpinUpCall"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.6
+			$string source "turret/tu_spinup.wav"
+			$string mode mono
+		}
+	]
+}
+"Turret.SpinDownCall"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.6
+			$float pitch 0.900000
+			$string source "turret/tu_spindown.wav"
+			$string mode mono
+		}
+	]
+}
+"Sentry.Shoot"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 0.9
+			$array source [string][
+				"weapons/hks1.wav",
+				"weapons/hks2.wav",
+				"weapons/hks3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Sentry.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.65
+			$array source [string][
+				"turret/tu_die.wav",
+				"turret/tu_die2.wav",
+				"turret/tu_die3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Vortigaunt.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"aslave/slv_pain1.wav",
+				"aslave/slv_pain2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Vortigaunt.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"aslave/slv_die1.wav",
+				"aslave/slv_die2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Vortigaunt.AttackHit"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$array source [string][
+				"zombie/claw_strike1.wav",
+				"zombie/claw_strike2.wav",
+				"zombie/claw_strike3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Vortigaunt.AttackMiss"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$array source [string][
+				"zombie/claw_miss1.wav",
+				"zombie/claw_miss2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Vortigaunt.ZapPowerup"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "debris/zap4.wav"
+			$string mode mono
+		}
+	]
+}
+"Vortigaunt.ZapShoot"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.300000
+			$string source "hassault/hw_shoot1.wav"
+			$string mode mono
+		}
+	]
+}
+"Zombie.AttackHit"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/claw_strike1.wav",
+				"zombie/claw_strike2.wav",
+				"zombie/claw_strike3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Zombie.AttackMiss"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/claw_miss1.wav",
+				"zombie/claw_miss2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Zombie.Attack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/zo_attack1.wav",
+				"zombie/zo_attack2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Zombie.Idle"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/zo_idle1.wav",
+				"zombie/zo_idle2.wav",
+				"zombie/zo_idle3.wav",
+				"zombie/zo_idle4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Zombie.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/zo_alert10.wav",
+				"zombie/zo_alert20.wav",
+				"zombie/zo_alert30.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Zombie.Pain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 0.950000
+			$array source [string][
+				"zombie/zo_pain1.wav",
+				"zombie/zo_pain2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"metal_barrel.impact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$string source "items/null.wav"
+			$string mode mono
+		}
+	]
+}
+"metal_barrel.scrape"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$string source "items/null.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.DrownContinue"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$array source [string][
+				"player/pl_swim1.wav",
+				"player/pl_swim2.wav",
+				"player/pl_swim3.wav",
+				"player/pl_swim4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Player.FlashlightOn"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$string source "items/flashlight1.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.FlashlightOff"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$string source "items/flashlight1.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.UseDeny"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.4
+			$string source "common/wpn_denyselect.wav"
+			$string mode mono
+		}
+	]
+}
+"WpnSnark.PrimaryAttack"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.050000
+			$array source [string][
+				"squeek/sqk_hunt2.wav",
+				"squeek/sqk_hunt3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"WpnSnark.Deploy"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"squeek/sqk_hunt2.wav",
+				"squeek/sqk_hunt3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Barnacle.Bite"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "barnacle/bcl_bite3.wav"
+			$string mode mono
+		}
+	]
+}
+"Barnacle.Chew"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"barnacle/bcl_chew1.wav",
+				"barnacle/bcl_chew2.wav",
+				"barnacle/bcl_chew3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Barnacle.Alert"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "barnacle/bcl_alert2.wav"
+			$string mode mono
+		}
+	]
+}
+"Barnacle.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"barnacle/bcl_die1.wav",
+				"barnacle/bcl_die3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Roach.Walk"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 0.800000
+			$string source "roach/rch_walk.wav"
+			$string mode mono
+		}
+	]
+}
+"Roach.Die"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.8
+			$float pitch 0.800000
+			$string source "roach/rch_die.wav"
+			$string mode mono
+		}
+	]
+}
+"Roach.Smash"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.7
+			$float pitch 0.800000
+			$string source "roach/rch_smash.wav"
+			$string mode mono
+		}
+	]
+}
+"Rot.ZapMachine"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "ambience/zapmachine.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.Train1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/train1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.Train2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/train2.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TrainUse1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/train_use1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TTrain1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/ttrain1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TTrain2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/ttrain2.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TTrain3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/ttrain3.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TTrain4"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/ttrain4.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TTrain5"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/ttrain5.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TTrain6"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/ttrain6.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TTrain7"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/ttrain7.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TTrainBrake1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/ttrain_brake1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TTrainStart1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/ttrain_start1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.BigElev1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/bigmove1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.BigElev2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/bigmove2.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TechElev1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/elevmove1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TechElev2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/elevmove2.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.TechElev3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/elevmove1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.FreightElev1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/freightmove1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.FreightElev2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/freightmove2.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.HeavyElev"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/heavymove1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.RackElev"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/rackmove1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.RailElev"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/railmove1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.SqueakElev"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/squeekmove1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.OddElev1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/talkmove1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.OddElev2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/talkmove2.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.DefaultMoving"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "common/null.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.DefaultArrive"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "common/null.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.BigElevStop1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/bigstop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.BigElevStop2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/bigstop2.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.FreightElevStop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/freightstop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.HeavyElevStop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/heavystop2.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.RackStop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/rackstop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.RailStop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/railstop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.SqueakStop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1
+			$string source "plats/squeekstop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plat.QuickStop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "plats/talkstop1.wav"
+			$string mode mono
+		}
+	]
+}
+"BaseCombatWeapon.WeaponDrop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.8
+			$float pitch 0.950000
+			$array source [string][
+				"physics/metal/weapon_impact_hard1.wav",
+				"physics/metal/weapon_impact_hard2.wav",
+				"physics/metal/weapon_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BaseCombatWeapon.WeaponMaterialize"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1
+			$float pitch 1.500000
+			$string source "items/suitchargeok1.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.FallDamage"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "player/pl_fallpain3.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.Swim"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/pl_wade1.wav",
+				"player/pl_wade2.wav",
+				"player/pl_wade3.wav",
+				"player/pl_wade4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Player.PickupWeapon"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1
+			$string source "items/ammo_pickup.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.DenyWeaponSelection"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.5
+			$float pitch 1.0
+			$string source "common/wpn_denyselect.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.WeaponSelected"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.5
+			$float pitch 1.0
+			$string source "common/wpn_select.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.WeaponSelectionMoveSlot"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.5
+			$float pitch 1.0
+			$string source "common/wpn_moveselect.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.WeaponSelectionOpen"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.5
+			$float pitch 1.0
+			$string source "common/wpn_hudon.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.WeaponSelectionClose"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.5
+			$float pitch 1.0
+			$string source "common/wpn_hudoff.wav"
+			$string mode mono
+		}
+	]
+}
+"SprayCan.Paint"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1
+			$string source "player/sprayer.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Physgun.On"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 0.42
+			$string source "weapons/physgun_on.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Physgun.Off"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.42
+			$string source "weapons/physgun_off.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Physgun.Special1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 0.42
+			$string source "weapons/flaregun/impact.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Physgun.LockedOn"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.900000
+			$bool loop 1
+			$string source "weapons/physgun_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Physgun.Scanning"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$bool loop 1
+			$string source "weapons/physgun_loop2.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Physgun.LightObject"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.1
+			$bool loop 1
+			$string source "weapons/physgun_loop3.wav"
+			$string mode mono
+		}
+	]
+}
+"Weapon_Physgun.HeavyObject"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.1
+			$bool loop 1
+			$string source "weapons/physgun_loop4.wav"
+			$string mode mono
+		}
+	]
+}
+"General.BurningFlesh"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$bool loop 1
+			$string source "npc/headcrab/headcrab_burning_loop2.wav"
+			$string mode mono
+		}
+	]
+}
+"General.BurningObject"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$bool loop 1
+			$string source "ambient/fire/fire_small_loop2.wav"
+			$string mode mono
+		}
+	]
+}
+"General.StopBurning"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "common/null.wav"
+			$string mode mono
+		}
+	]
+}
+"Splash.SplashSound"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Generic"
+			$float gain 0.75
+			$float pitch 0.900000
+			$array source [string][
+				"ambient/water/water_spray1.wav",
+				"ambient/water/water_spray2.wav",
+				"ambient/water/water_spray3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bullets.DefaultNearmiss"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"weapons/fx/nearmiss/bulletLtoR03.wav",
+				"weapons/fx/nearmiss/bulletLtoR04.wav",
+				"weapons/fx/nearmiss/bulletLtoR06.wav",
+				"weapons/fx/nearmiss/bulletLtoR07.wav",
+				"weapons/fx/nearmiss/bulletLtoR09.wav",
+				"weapons/fx/nearmiss/bulletLtoR10.wav",
+				"weapons/fx/nearmiss/bulletLtoR13.wav",
+				"weapons/fx/nearmiss/bulletLtoR14.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"FX_RicochetSound.Ricochet"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$vec2 gain [0.5,0.6]
+			$float pitch 0.900000
+			$array source [string][
+				"weapons/fx/rics/ric1.wav",
+				"weapons/fx/rics/ric2.wav",
+				"weapons/fx/rics/ric3.wav",
+				"weapons/fx/rics/ric4.wav",
+				"weapons/fx/rics/ric5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BaseExplosionEffect.Sound"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"weapons/explode3.wav",
+				"weapons/explode4.wav",
+				"weapons/explode5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Geiger.BeepLow"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float pitch 1.0
+			$array source [string][
+				"player/geiger1.wav",
+				"player/geiger2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Geiger.BeepHigh"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float pitch 1.0
+			$array source [string][
+				"player/geiger2.wav",
+				"player/geiger3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AI_BaseNPC.SwishSound"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1
+			$string source "npc/zombie/claw_miss2.wav"
+			$string mode mono
+		}
+	]
+}
+"AI_BaseNPC.BodyDrop_Heavy"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1
+			$float pitch 0.900000
+			$array source [string][
+				"physics/flesh/flesh_impact_hard1.wav",
+				"physics/flesh/flesh_impact_hard2.wav",
+				"physics/flesh/flesh_impact_hard3.wav",
+				"physics/flesh/flesh_impact_hard4.wav",
+				"physics/flesh/flesh_impact_hard5.wav",
+				"physics/flesh/flesh_impact_hard6.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AI_BaseNPC.BodyDrop_Light"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.9
+			$float pitch 1.050000
+			$array source [string][
+				"physics/flesh/flesh_impact_hard1.wav",
+				"physics/flesh/flesh_impact_hard2.wav",
+				"physics/flesh/flesh_impact_hard3.wav",
+				"physics/flesh/flesh_impact_hard4.wav",
+				"physics/flesh/flesh_impact_hard5.wav",
+				"physics/flesh/flesh_impact_hard6.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"AI_BaseNPC.SentenceStop"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$string source "common/null.wav"
+			$string mode mono
+		}
+	]
+}
+"BaseCombatCharacter.CorpseGib"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1
+			$string source "physics/flesh/flesh_squishy_impact_hard2.wav"
+			$string mode mono
+		}
+	]
+}
+"BaseCombatCharacter.StopWeaponSounds"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 1
+			$string source "common/null.wav"
+			$string mode mono
+		}
+	]
+}
+"BaseCombatCharacter.AmmoPickup"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1
+			$string source "items/ammo_pickup.wav"
+			$string mode mono
+		}
+	]
+}
+"BaseGrenade.Explode"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.45
+			$array source [string][
+				"weapons/debris1.wav",
+				"weapons/debris2.wav",
+				"weapons/debris3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Player.FallGib"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "physics/flesh/flesh_break1.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.Death"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1
+			$array source [string][
+				"player/pl_pain5.wav",
+				"player/pl_pain6.wav",
+				"player/pl_pain7.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Player.PlasmaDamage"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$string source "player/general/flesh_burn.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.SonicDamage"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$string source "player/general/sonic_damage.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.DrownStart"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 1.0
+			$string source "player/pl_wade1.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.Wade"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$array source [string][
+				"player/footsteps/wade1.wav",
+				"player/footsteps/wade2.wav",
+				"player/footsteps/wade3.wav",
+				"player/footsteps/wade4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Player.AmbientUnderWater"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$string source "ambient/water/underwater.wav"
+			$string mode mono
+		}
+	]
+}
+"Player.UseTrain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$string source "plats/train_use1.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.Null"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "common/null.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DefaultMove"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/default_move.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DefaultArrive"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "common/null.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DefaultLocked"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/default_locked.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorMove1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doormove1.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorMove2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doormove2.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorMove3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doormove3.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorMove4"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doormove4.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorMove5"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doormove5.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorMove6"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doormove6.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorMove7"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doormove7.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorStop1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doorstop1.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorStop2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doorstop2.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorStop3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doorstop3.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorStop4"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doorstop4.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorStop5"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doorstop5.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorStop6"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doorstop6.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorStop7"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doorstop7.wav"
+			$string mode mono
+		}
+	]
+}
+"DoorSound.DoorStop8"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/doorstop8.wav"
+			$string mode mono
+		}
+	]
+}
+"RotDoorSound.DefaultMove"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/default_move.wav"
+			$string mode mono
+		}
+	]
+}
+"RotDoorSound.DefaultArrive"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "common/null.wav"
+			$string mode mono
+		}
+	]
+}
+"RotDoorSound.DefaultLocked"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.2
+			$string source "doors/default_locked.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd0"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$string source "common/null.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button1.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button2.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button3.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd4"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button4.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd5"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button5.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd6"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button6.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd7"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button7.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd8"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button8.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd9"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button9.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd10"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button10.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd11"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button11.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd12"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "doors/latchlocked2.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd13"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "doors/latchunlocked1.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd14"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/lightswitch2.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd15"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button15.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd16"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button16.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd17"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button17.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd18"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button18.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd19"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button19.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd20"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button20.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.LatchLocked1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/latchlocked1.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.LatchUnlocked1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/latchunlocked1.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd21"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$string source "buttons/lever1.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd22"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$string source "buttons/lever2.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd23"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$string source "buttons/lever3.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd24"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$string source "buttons/lever4.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd25"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$string source "buttons/lever5.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd26"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/Lever6.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd27"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/Lever7.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd28"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/Lever8.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd31"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button21.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd32"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button22.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd33"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button23.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd34"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button24.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd35"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button12.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd36"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button13.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd37"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/button14.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd40"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/combine_button_locked.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd41"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/combine_button1.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd42"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/combine_button2.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd43"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/combine_button3.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd44"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/combine_button4.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd45"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/combine_button5.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd46"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/combine_button6.wav"
+			$string mode mono
+		}
+	]
+}
+"Buttons.snd47"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Physics"
+			$float gain 0.7
+			$float pitch 1.000000
+			$string source "buttons/combine_button7.wav"
+			$string mode mono
+		}
+	]
+}
+"DoSpark"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$vec2 gain [0.1,0.5]
+			$array source [string][
+				"ambient/energy/spark1.wav",
+				"ambient/energy/spark2.wav",
+				"ambient/energy/spark3.wav",
+				"ambient/energy/spark4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Ambience.Drips"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$string source "ambience/drips.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.WaterFall1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$string source "ambience/waterfall1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.ParticleSuck1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "ambience/particle_suck1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.ParticleSuck2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "ambience/particle_suck2.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.AlienMindDrill"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$string source "ambience/alien_minddrill.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.Siren"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "ambience/siren.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.BigWarning"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "ambience/bigwarning.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.Wind1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$string source "ambience/wind1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.DeadSignal2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$string source "ambience/deadsignal2.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.CompuTalk2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.75
+			$string source "ambience/computalk2.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.PulseMachine"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$string source "ambience/pulsemachine.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.Breather"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$string source "ambience/breather.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.DroneMachine1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$string source "ambience/dronemachine1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.Techamb1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$string source "ambience/techamb1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.Techamb2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$string source "ambience/techamb2.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.MechWhine"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$string source "ambience/mechwhine.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.Industrial1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$string source "ambience/industrial1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.RocketGroan1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "ambience/rocket_groan1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.RocketGroan2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "ambience/rocket_groan2.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.RocketSteam1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "ambience/rocket_steam1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.RocketFlame1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "ambience/rocketflame1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.LabDrone1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$string source "ambience/labdrone1.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.LabDrone2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$string source "ambience/labdrone2.wav"
+			$string mode mono
+		}
+	]
+}
+"Ambience.SteamBurst1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$string source "ambience/steamburst1.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.BeamStart1"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "debris/beamstart1.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.BeamStart2"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "debris/beamstart2.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.BeamStart3"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "debris/beamstart3.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.BeamStart4"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "debris/beamstart4.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.BeamStart5"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "debris/beamstart5.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.BeamStart6"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "debris/beamstart6.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.BeamStart7"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "debris/beamstart7.wav"
+			$string mode mono
+		}
+	]
+}
+"Debris.BeamStart15"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "debris/beamstart15.wav"
+			$string mode mono
+		}
+	]
+}
+"Scientist.Scream01"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "scientist/scream01.wav"
+			$string mode mono
+		}
+	]
+}
+"Scientist.Scream02"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "scientist/scream02.wav"
+			$string mode mono
+		}
+	]
+}
+"Scientist.Scream10"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "scientist/scream10.wav"
+			$string mode mono
+		}
+	]
+}
+"Scientist.Scream25"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string source "scientist/scream25.wav"
+			$string mode mono
+		}
+	]
+}

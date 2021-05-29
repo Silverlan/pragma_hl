@@ -1,0 +1,1 @@
+ents.register("trigger_changelevel",{"trigger_changelevel"})

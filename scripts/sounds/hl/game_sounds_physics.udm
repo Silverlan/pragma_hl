@@ -1,0 +1,4763 @@
+"Default.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 1.0
+			$array source [string][
+				"player/footsteps/concrete1.wav",
+				"player/footsteps/concrete3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Default.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 1.0
+			$array source [string][
+				"player/footsteps/concrete2.wav",
+				"player/footsteps/concrete4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Default.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.7
+			$array source [string][
+				"physics/plastic/plastic_box_impact_hard1.wav",
+				"physics/plastic/plastic_box_impact_hard2.wav",
+				"physics/plastic/plastic_box_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Default.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/plastic/plastic_box_scrape_smooth_loop2.wav"
+			$string mode mono
+		}
+	]
+}
+"Default.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/plastic/plastic_box_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Default.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.950000
+			$float gain 0.6
+			$array source [string][
+				"physics/plastic/plastic_box_impact_soft2.wav",
+				"physics/plastic/plastic_box_impact_soft3.wav",
+				"physics/plastic/plastic_box_impact_soft4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Default.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.950000
+			$float gain 0.6
+			$array source [string][
+				"physics/plastic/plastic_box_impact_hard1.wav",
+				"physics/plastic/plastic_box_impact_hard2.wav",
+				"physics/plastic/plastic_box_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"SolidMetal.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 1.0
+			$array source [string][
+				"player/footsteps/metal1.wav",
+				"player/footsteps/metal3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"SolidMetal.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 1.0
+			$array source [string][
+				"player/footsteps/metal2.wav",
+				"player/footsteps/metal4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"SolidMetal.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.950000
+			$float gain 0.4
+			$array source [string][
+				"physics/metal/metal_solid_impact_hard1.wav",
+				"physics/metal/metal_solid_impact_hard4.wav",
+				"physics/metal/metal_solid_impact_hard5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"SolidMetal.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.950000
+			$float gain 0.6
+			$array source [string][
+				"physics/metal/metal_solid_impact_soft1.wav",
+				"physics/metal/metal_solid_impact_soft2.wav",
+				"physics/metal/metal_solid_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"SolidMetal.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.950000
+			$float gain 0.5
+			$bool loop 1
+			$string source "physics/metal/metal_box_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"SolidMetal.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.950000
+			$float gain 0.5
+			$bool loop 1
+			$string source "physics/metal/metal_box_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"SolidMetal.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.7
+			$array source [string][
+				"physics/metal/metal_solid_impact_bullet1.wav",
+				"physics/metal/metal_solid_impact_bullet2.wav",
+				"physics/metal/metal_solid_impact_bullet3.wav",
+				"physics/metal/metal_solid_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"SolidMetal.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.7
+			$array source [string][
+				"physics/metal/metal_solid_strain1.wav",
+				"physics/metal/metal_solid_strain4.wav",
+				"physics/metal/metal_solid_strain5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Dirt.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 1.0
+			$array source [string][
+				"player/footsteps/dirt1.wav",
+				"player/footsteps/dirt3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Dirt.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 1.0
+			$array source [string][
+				"player/footsteps/dirt2.wav",
+				"player/footsteps/dirt4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Dirt.Impact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$string source "physics/surfaces/sand_impact_bullet2.wav"
+			$string mode mono
+		}
+	]
+}
+"Dirt.Scrape"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.950000
+			$bool loop 1
+			$string source "physics/cardboard/cardboard_box_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Dirt.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/surfaces/sand_impact_bullet1.wav",
+				"physics/surfaces/sand_impact_bullet2.wav",
+				"physics/surfaces/sand_impact_bullet3.wav",
+				"physics/surfaces/sand_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Mud.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.900000
+			$array source [string][
+				"player/footsteps/mud1.wav",
+				"player/footsteps/mud3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Mud.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.900000
+			$array source [string][
+				"player/footsteps/mud2.wav",
+				"player/footsteps/mud4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"SlipperySlime.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.900000
+			$array source [string][
+				"player/footsteps/mud1.wav",
+				"player/footsteps/mud3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"SlipperySlime.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.900000
+			$array source [string][
+				"player/footsteps/mud2.wav",
+				"player/footsteps/mud4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Grass.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/grass1.wav",
+				"player/footsteps/grass3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Grass.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/grass2.wav",
+				"player/footsteps/grass4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalGrate.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/metalgrate1.wav",
+				"player/footsteps/metalgrate3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalGrate.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/metalgrate2.wav",
+				"player/footsteps/metalgrate4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalGrate.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.950000
+			$array source [string][
+				"physics/metal/metal_grate_impact_hard1.wav",
+				"physics/metal/metal_grate_impact_hard2.wav",
+				"physics/metal/metal_grate_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalGrate.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.950000
+			$array source [string][
+				"physics/metal/metal_grate_impact_soft1.wav",
+				"physics/metal/metal_grate_impact_soft2.wav",
+				"physics/metal/metal_grate_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalGrate.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.950000
+			$bool loop 1
+			$string source "physics/metal/metal_box_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"MetalGrate.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.950000
+			$bool loop 1
+			$string source "physics/metal/metal_box_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"MetalGrate.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/metal_sheet_impact_bullet1.wav",
+				"physics/metal/metal_sheet_impact_bullet2.wav",
+				"physics/metal/metal_solid_impact_bullet2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalVent.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/duct2.wav",
+				"player/footsteps/duct4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalVent.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$array source [string][
+				"player/footsteps/duct1.wav",
+				"player/footsteps/duct3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalVent.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_sheet_impact_hard6.wav",
+				"physics/metal/metal_sheet_impact_hard7.wav",
+				"physics/metal/metal_sheet_impact_hard8.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tile.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/tile1.wav",
+				"player/footsteps/tile3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tile.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/tile2.wav",
+				"player/footsteps/tile4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tile.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/surfaces/tile_impact_bullet1.wav",
+				"physics/surfaces/tile_impact_bullet2.wav",
+				"physics/surfaces/tile_impact_bullet3.wav",
+				"physics/surfaces/tile_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Water.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/slosh2.wav",
+				"player/footsteps/slosh4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Water.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/slosh1.wav",
+				"player/footsteps/slosh3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Water.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/slosh1.wav",
+				"player/footsteps/slosh3.wav",
+				"player/footsteps/slosh2.wav",
+				"player/footsteps/slosh4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Underwater.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.9
+			$float pitch 0.950000
+			$array source [string][
+				"physics/surfaces/underwater_impact_bullet1.wav",
+				"physics/surfaces/underwater_impact_bullet2.wav",
+				"physics/surfaces/underwater_impact_bullet3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Physics.WaterSplash"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$vec2 gain [0.800,1.000]
+			$float pitch 0.850000
+			$array source [string][
+				"ambient/water/water_splash1.wav",
+				"ambient/water/water_splash2.wav",
+				"ambient/water/water_splash3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"BaseEntity.EnterWater"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Generic"
+			$float gain 0.35
+			$float pitch 0.900000
+			$string source "player/footsteps/wade5.wav"
+			$string mode mono
+		}
+	]
+}
+"BaseEntity.ExitWater"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Generic"
+			$float gain 0.3
+			$float pitch 0.900000
+			$string source "player/footsteps/wade2.wav"
+			$string mode mono
+		}
+	]
+}
+"Wade.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.25
+			$float pitch 0.900000
+			$array source [string][
+				"player/footsteps/wade1.wav",
+				"player/footsteps/wade3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wade.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.25
+			$float pitch 0.900000
+			$array source [string][
+				"player/footsteps/wade2.wav",
+				"player/footsteps/wade4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Ladder.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/ladder1.wav",
+				"player/footsteps/ladder3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Ladder.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/ladder2.wav",
+				"player/footsteps/ladder4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Glass.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_sheet_step1.wav",
+				"physics/glass/glass_sheet_step2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Glass.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_sheet_step3.wav",
+				"physics/glass/glass_sheet_step4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Glass.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_sheet_impact_hard1.wav",
+				"physics/glass/glass_sheet_impact_hard2.wav",
+				"physics/glass/glass_sheet_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Glass.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_sheet_impact_soft1.wav",
+				"physics/glass/glass_sheet_impact_soft2.wav",
+				"physics/glass/glass_sheet_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Glass.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_impact_bullet1.wav",
+				"physics/glass/glass_impact_bullet2.wav",
+				"physics/glass/glass_impact_bullet3.wav",
+				"physics/glass/glass_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Glass.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_sheet_impact_hard1.wav",
+				"physics/glass/glass_sheet_impact_hard2.wav",
+				"physics/glass/glass_sheet_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Glass.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.2
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_sheet_impact_soft1.wav",
+				"physics/glass/glass_sheet_impact_soft2.wav",
+				"physics/glass/glass_sheet_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Glass.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_strain1.wav",
+				"physics/glass/glass_strain2.wav",
+				"physics/glass/glass_strain3.wav",
+				"physics/glass/glass_strain4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Glass.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_sheet_break1.wav",
+				"physics/glass/glass_sheet_break2.wav",
+				"physics/glass/glass_sheet_break3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Pottery.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_pottery_break1.wav",
+				"physics/glass/glass_pottery_break2.wav",
+				"physics/glass/glass_pottery_break3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Pottery.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_impact_hard1.wav",
+				"physics/glass/glass_impact_hard2.wav",
+				"physics/glass/glass_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Pottery.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_impact_soft1.wav",
+				"physics/glass/glass_impact_soft2.wav",
+				"physics/glass/glass_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Pottery.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_pottery_break1.wav",
+				"physics/glass/glass_pottery_break2.wav",
+				"physics/glass/glass_pottery_break3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Computer.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_impact_bullet1.wav",
+				"physics/glass/glass_impact_bullet2.wav",
+				"physics/metal/metal_computer_impact_bullet1.wav",
+				"physics/metal/metal_computer_impact_bullet2.wav",
+				"physics/metal/metal_computer_impact_bullet3.wav",
+				"physics/plastic/plastic_box_impact_bullet1.wav",
+				"physics/plastic/plastic_box_impact_bullet2.wav",
+				"physics/plastic/plastic_box_impact_bullet3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Computer.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/metal_computer_impact_hard1.wav",
+				"physics/metal/metal_computer_impact_hard2.wav",
+				"physics/metal/metal_computer_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Computer.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/metal_computer_impact_soft1.wav",
+				"physics/metal/metal_computer_impact_soft2.wav",
+				"physics/metal/metal_computer_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Concrete.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/concrete1.wav",
+				"player/footsteps/concrete3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Concrete.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/concrete2.wav",
+				"player/footsteps/concrete4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Concrete.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/concrete/concrete_impact_bullet1.wav",
+				"physics/concrete/concrete_impact_bullet2.wav",
+				"physics/concrete/concrete_impact_bullet3.wav",
+				"physics/concrete/concrete_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Concrete.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 1.0
+			$array source [string][
+				"physics/concrete/concrete_impact_hard1.wav",
+				"physics/concrete/concrete_impact_hard2.wav",
+				"physics/concrete/concrete_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Concrete.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$array source [string][
+				"physics/concrete/concrete_impact_soft1.wav",
+				"physics/concrete/concrete_impact_soft2.wav",
+				"physics/concrete/concrete_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Concrete.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$bool loop 1
+			$string source "physics/concrete/concrete_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Concrete.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$bool loop 1
+			$string source "physics/concrete/rock_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Rock.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 1.0
+			$array source [string][
+				"physics/concrete/rock_impact_hard4.wav",
+				"physics/concrete/rock_impact_hard5.wav",
+				"physics/concrete/rock_impact_hard6.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Rock.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$array source [string][
+				"physics/concrete/rock_impact_soft1.wav",
+				"physics/concrete/rock_impact_soft2.wav",
+				"physics/concrete/rock_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Boulder.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 0.800000
+			$bool loop 1
+			$string source "physics/concrete/rock_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Boulder.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.950000
+			$bool loop 1
+			$string source "physics/concrete/concrete_block_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Boulder.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 0.900000
+			$array source [string][
+				"physics/concrete/rock_impact_hard1.wav",
+				"physics/concrete/rock_impact_hard2.wav",
+				"physics/concrete/rock_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Boulder.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.85
+			$float pitch 1.0
+			$array source [string][
+				"physics/concrete/boulder_impact_hard1.wav",
+				"physics/concrete/boulder_impact_hard2.wav",
+				"physics/concrete/boulder_impact_hard3.wav",
+				"physics/concrete/boulder_impact_hard4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Concrete_Block.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 1.0
+			$array source [string][
+				"physics/concrete/concrete_block_impact_hard1.wav",
+				"physics/concrete/concrete_block_impact_hard2.wav",
+				"physics/concrete/concrete_block_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Gravel.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/gravel1.wav",
+				"player/footsteps/gravel3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Gravel.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/gravel2.wav",
+				"player/footsteps/gravel4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ChainLink.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/chainlink1.wav",
+				"player/footsteps/chainlink3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ChainLink.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/chainlink2.wav",
+				"player/footsteps/chainlink4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ChainLink.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.950000
+			$bool loop 1
+			$string source "physics/metal/metal_chainlink_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"ChainLink.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.2
+			$float pitch 0.950000
+			$bool loop 1
+			$string source "physics/metal/metal_chainlink_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"ChainLink.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.950000
+			$array source [string][
+				"physics/metal/metal_chainlink_impact_hard1.wav",
+				"physics/metal/metal_chainlink_impact_hard2.wav",
+				"physics/metal/metal_chainlink_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ChainLink.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.950000
+			$array source [string][
+				"physics/metal/metal_chainlink_impact_soft1.wav",
+				"physics/metal/metal_chainlink_impact_soft2.wav",
+				"physics/metal/metal_chainlink_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ChainLink.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/chainlink1.wav",
+				"physics/metal/metal_chainlink_impact_hard2.wav",
+				"player/footsteps/chainlink3.wav",
+				"physics/metal/metal_chainlink_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Chain.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.950000
+			$bool loop 1
+			$string source "physics/metal/chain_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Chain.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.2
+			$float pitch 0.950000
+			$bool loop 1
+			$string source "physics/metal/chain_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Chain.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.950000
+			$array source [string][
+				"physics/metal/chain_impact_hard1.wav",
+				"physics/metal/chain_impact_hard2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Chain.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.950000
+			$array source [string][
+				"physics/metal/chain_impact_soft1.wav",
+				"physics/metal/chain_impact_soft2.wav",
+				"physics/metal/chain_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Chain.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/chain_impact_hard1.wav",
+				"physics/metal/chain_impact_hard2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Flesh.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 1.0
+			$array source [string][
+				"physics/flesh/flesh_impact_hard1.wav",
+				"physics/body/body_medium_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Flesh.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 1.0
+			$array source [string][
+				"physics/flesh/flesh_impact_hard2.wav",
+				"physics/body/body_medium_impact_soft4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Flesh.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 1.0
+			$array source [string][
+				"physics/body/body_medium_impact_soft1.wav",
+				"physics/body/body_medium_impact_soft2.wav",
+				"physics/body/body_medium_impact_soft5.wav",
+				"physics/body/body_medium_impact_soft6.wav",
+				"physics/body/body_medium_impact_soft7.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Flesh.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 1.0
+			$array source [string][
+				"physics/body/body_medium_impact_hard1.wav",
+				"physics/body/body_medium_impact_hard2.wav",
+				"physics/body/body_medium_impact_hard3.wav",
+				"physics/body/body_medium_impact_hard4.wav",
+				"physics/body/body_medium_impact_hard5.wav",
+				"physics/body/body_medium_impact_hard6.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Flesh.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/flesh/flesh_impact_bullet1.wav",
+				"physics/flesh/flesh_impact_bullet2.wav",
+				"physics/flesh/flesh_impact_bullet3.wav",
+				"physics/flesh/flesh_impact_bullet4.wav",
+				"physics/flesh/flesh_impact_bullet5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Flesh.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$bool loop 1
+			$string source "physics/body/body_medium_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Flesh.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.35
+			$float pitch 1.0
+			$bool loop 1
+			$string source "physics/body/body_medium_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Flesh.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 1.000000
+			$array source [string][
+				"physics/body/body_medium_strain1.wav",
+				"physics/body/body_medium_strain2.wav",
+				"physics/body/body_medium_strain3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Flesh.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 1.000000
+			$array source [string][
+				"physics/body/body_medium_break2.wav",
+				"physics/body/body_medium_break3.wav",
+				"physics/body/body_medium_break4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Flesh_Bloody.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.000000
+			$array source [string][
+				"physics/flesh/flesh_squishy_impact_hard1.wav",
+				"physics/flesh/flesh_squishy_impact_hard2.wav",
+				"physics/flesh/flesh_squishy_impact_hard3.wav",
+				"physics/flesh/flesh_squishy_impact_hard4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Carpet.Impact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/sand1.wav",
+				"player/footsteps/sand2.wav",
+				"player/footsteps/sand3.wav",
+				"player/footsteps/sand4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Carpet.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/surfaces/sand_impact_bullet1.wav",
+				"physics/surfaces/sand_impact_bullet2.wav",
+				"physics/surfaces/sand_impact_bullet3.wav",
+				"physics/surfaces/sand_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Carpet.Scrape"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.5
+			$bool loop 1
+			$string source "physics/flesh/flesh_scrape_rough_loop.wav"
+			$string mode mono
+		}
+	]
+}
+"Sand.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/sand1.wav",
+				"player/footsteps/sand3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Sand.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/sand2.wav",
+				"player/footsteps/sand4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Sand.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/surfaces/sand_impact_bullet1.wav",
+				"physics/surfaces/sand_impact_bullet2.wav",
+				"physics/surfaces/sand_impact_bullet3.wav",
+				"physics/surfaces/sand_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Watermelon.Impact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 1.0
+			$array source [string][
+				"physics/flesh/flesh_squishy_impact_hard1.wav",
+				"physics/flesh/flesh_squishy_impact_hard2.wav",
+				"physics/flesh/flesh_squishy_impact_hard3.wav",
+				"physics/flesh/flesh_squishy_impact_hard4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Watermelon.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/flesh/flesh_squishy_impact_hard1.wav",
+				"physics/flesh/flesh_squishy_impact_hard2.wav",
+				"physics/flesh/flesh_squishy_impact_hard3.wav",
+				"physics/flesh/flesh_squishy_impact_hard4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Watermelon.Scrape"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$string source "physics/flesh/flesh_squishy_impact_hard4.wav"
+			$string mode mono
+		}
+	]
+}
+"ArmorFlesh.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/metal_sheet_impact_bullet1.wav",
+				"physics/metal/metal_sheet_impact_bullet2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_SeafloorCar.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$string source "doors/heavy_metal_stop1.wav"
+			$string mode mono
+		}
+	]
+}
+"MetalVehicle.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.9
+			$float pitch 0.800000
+			$array source [string][
+				"vehicles/v8/vehicle_impact_heavy1.wav",
+				"vehicles/v8/vehicle_impact_heavy2.wav",
+				"vehicles/v8/vehicle_impact_heavy3.wav",
+				"vehicles/v8/vehicle_impact_heavy4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalVehicle.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.800000
+			$array source [string][
+				"vehicles/v8/vehicle_impact_medium1.wav",
+				"vehicles/v8/vehicle_impact_medium2.wav",
+				"vehicles/v8/vehicle_impact_medium3.wav",
+				"vehicles/v8/vehicle_impact_medium4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalVehicle.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.100000
+			$array source [string][
+				"vehicles/v8/vehicle_rollover1.wav",
+				"vehicles/v8/vehicle_rollover2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"MetalVehicle.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 1.100000
+			$array source [string][
+				"vehicles/v8/vehicle_rollover1.wav",
+				"vehicles/v8/vehicle_rollover2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"GlassBottle.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.2
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_impact_soft1.wav",
+				"physics/glass/glass_impact_soft2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"GlassBottle.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.2
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_impact_soft2.wav",
+				"physics/glass/glass_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"GlassBottle.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.950000
+			$array source [string][
+				"physics/glass/glass_bottle_impact_hard1.wav",
+				"physics/glass/glass_bottle_impact_hard2.wav",
+				"physics/glass/glass_bottle_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"GlassBottle.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.950000
+			$array source [string][
+				"physics/glass/glass_impact_soft1.wav",
+				"physics/glass/glass_impact_soft2.wav",
+				"physics/glass/glass_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"GlassBottle.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_bottle_break1.wav",
+				"physics/glass/glass_bottle_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"GlassBottle.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 0.980000
+			$array source [string][
+				"physics/glass/glass_bottle_impact_hard1.wav",
+				"physics/glass/glass_bottle_impact_hard2.wav",
+				"physics/glass/glass_bottle_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"GlassBottle.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 0.980000
+			$array source [string][
+				"physics/glass/glass_impact_soft1.wav",
+				"physics/glass/glass_impact_soft2.wav",
+				"physics/glass/glass_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"GlassBottle.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/glass/glass_bottle_break1.wav",
+				"physics/glass/glass_bottle_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Canister.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_canister_impact_hard1.wav",
+				"physics/metal/metal_canister_impact_hard2.wav",
+				"physics/metal/metal_canister_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Canister.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.45
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_canister_impact_soft1.wav",
+				"physics/metal/metal_canister_impact_soft2.wav",
+				"physics/metal/metal_canister_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Canister.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$bool loop 1
+			$string source "physics/metal/canister_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Canister.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.45
+			$float pitch 1.0
+			$bool loop 1
+			$string source "physics/metal/canister_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Canister.Roll"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$bool loop 1
+			$string source "physics/metal/canister_roll_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Metal_Barrel.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_barrel_impact_hard1.wav",
+				"physics/metal/metal_barrel_impact_hard2.wav",
+				"physics/metal/metal_barrel_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Barrel.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_barrel_impact_soft1.wav",
+				"physics/metal/metal_barrel_impact_soft2.wav",
+				"physics/metal/metal_barrel_impact_soft3.wav",
+				"physics/metal/metal_barrel_impact_hard7.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Barrel.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/metal_sheet_impact_bullet1.wav",
+				"physics/metal/metal_sheet_impact_bullet2.wav",
+				"physics/metal/metal_solid_impact_bullet2.wav",
+				"physics/metal/metal_solid_impact_bullet3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Barrel.Roll"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.2
+			$float pitch 1.0
+			$bool loop 1
+			$string source "physics/metal/canister_roll_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Roller.Impact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_solid_impact_bullet1.wav",
+				"physics/metal/metal_solid_impact_bullet2.wav",
+				"physics/metal/metal_solid_impact_bullet3.wav",
+				"physics/metal/metal_solid_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Popcan.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/soda_can_impact_hard1.wav",
+				"physics/metal/soda_can_impact_hard2.wav",
+				"physics/metal/soda_can_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Popcan.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/soda_can_impact_soft1.wav",
+				"physics/metal/soda_can_impact_soft2.wav",
+				"physics/metal/soda_can_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Popcan.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/soda_can_impact_hard1.wav",
+				"physics/metal/soda_can_impact_hard2.wav",
+				"physics/metal/soda_can_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Popcan.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 0.980000
+			$bool loop 1
+			$string source "physics/metal/soda_can_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Popcan.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 1.300000
+			$bool loop 1
+			$string source "physics/plastic/plastic_box_scrape_smooth_loop2.wav"
+			$string mode mono
+		}
+	]
+}
+"Paintcan.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/paintcan_impact_hard1.wav",
+				"physics/metal/paintcan_impact_hard2.wav",
+				"physics/metal/paintcan_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Paintcan.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/paintcan_impact_soft1.wav",
+				"physics/metal/paintcan_impact_soft2.wav",
+				"physics/metal/paintcan_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Paintcan.Roll"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 0.980000
+			$bool loop 1
+			$string source "physics/metal/paintcan_roll_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Papercup.Impact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/cardboard/cardboard_cup_impact_hard1.wav",
+				"physics/cardboard/cardboard_cup_impact_hard2.wav",
+				"physics/cardboard/cardboard_cup_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Papercup.Scrape"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 1.0
+			$array source [string][
+				"physics/cardboard/cardboard_cup_impact_hard1.wav",
+				"physics/cardboard/cardboard_cup_impact_hard2.wav",
+				"physics/cardboard/cardboard_cup_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ceiling_tile.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/plaster/ceiling_tile_step1.wav",
+				"physics/plaster/ceiling_tile_step3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ceiling_tile.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/plaster/ceiling_tile_step2.wav",
+				"physics/plaster/ceiling_tile_step4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ceiling_tile.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/plaster/ceiling_tile_impact_bullet1.wav",
+				"physics/plaster/ceiling_tile_impact_bullet2.wav",
+				"physics/plaster/ceiling_tile_impact_bullet3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ceiling_tile.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/plaster/ceiling_tile_impact_soft1.wav",
+				"physics/plaster/ceiling_tile_impact_soft2.wav",
+				"physics/plaster/ceiling_tile_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ceiling_tile.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 0.980000
+			$array source [string][
+				"physics/plaster/ceiling_tile_impact_hard1.wav",
+				"physics/plaster/ceiling_tile_impact_hard2.wav",
+				"physics/plaster/ceiling_tile_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"ceiling_tile.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/plaster/ceiling_tile_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"ceiling_tile.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/plaster/ceiling_tile_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"ceiling_tile.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 0.980000
+			$array source [string][
+				"physics/plaster/ceilingtile_break1.wav",
+				"physics/plaster/ceilingtile_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"drywall.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/plaster/drywall_footstep1.wav",
+				"physics/plaster/drywall_footstep3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"drywall.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/plaster/drywall_footstep2.wav",
+				"physics/plaster/drywall_footstep4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"drywall.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/plaster/drywall_impact_soft1.wav",
+				"physics/plaster/drywall_impact_soft2.wav",
+				"physics/plaster/drywall_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"drywall.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 0.980000
+			$array source [string][
+				"physics/plaster/drywall_impact_hard1.wav",
+				"physics/plaster/drywall_impact_hard2.wav",
+				"physics/plaster/drywall_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Gunship.Impact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "physics/metal/metal_solid_impact_hard1.wav"
+			$string mode mono
+		}
+	]
+}
+"Gunship.Scrape"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "physics/metal/metal_solid_impact_hard1.wav"
+			$string mode mono
+		}
+	]
+}
+"Strider.Impact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/flesh/flesh_strider_impact_bullet1.wav",
+				"physics/flesh/flesh_strider_impact_bullet2.wav",
+				"physics/flesh/flesh_strider_impact_bullet3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Strider.Scrape"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/flesh/flesh_strider_impact_bullet1.wav",
+				"physics/flesh/flesh_strider_impact_bullet2.wav",
+				"physics/flesh/flesh_strider_impact_bullet3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.Crate"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.7
+			$array source [string][
+				"physics/wood/wood_crate_break1.wav",
+				"physics/wood/wood_crate_break2.wav",
+				"physics/wood/wood_crate_break3.wav",
+				"physics/wood/wood_crate_break4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.Flesh"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.7
+			$string source "physics/flesh/flesh_bloody_break.wav"
+			$string mode mono
+		}
+	]
+}
+"Breakable.Spark"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.7
+			$array source [string][
+				"ambient/energy/spark5.wav",
+				"ambient/energy/spark6.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.Metal"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.7
+			$array source [string][
+				"physics/metal/metal_box_break1.wav",
+				"physics/metal/metal_box_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.Glass"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.7
+			$array source [string][
+				"physics/glass/glass_largesheet_break1.wav",
+				"physics/glass/glass_largesheet_break2.wav",
+				"physics/glass/glass_largesheet_break3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.Concrete"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.7
+			$array source [string][
+				"physics/concrete/concrete_break2.wav",
+				"physics/concrete/concrete_break3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.Ceiling"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$float gain 0.7
+			$array source [string][
+				"physics/plaster/ceilingtile_break1.wav",
+				"physics/plaster/ceilingtile_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.MatWood"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.7
+			$array source [string][
+				"physics/wood/wood_plank_break1.wav",
+				"physics/wood/wood_plank_break2.wav",
+				"physics/wood/wood_plank_break3.wav",
+				"physics/wood/wood_plank_break4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.MatFlesh"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.4
+			$array source [string][
+				"physics/body/body_medium_break2.wav",
+				"physics/body/body_medium_break3.wav",
+				"physics/body/body_medium_break4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.MatMetal"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.7
+			$array source [string][
+				"physics/metal/metal_box_break1.wav",
+				"physics/metal/metal_box_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.MatConcrete"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.7
+			$string source "physics/concrete/concrete_break2.wav"
+			$string mode mono
+		}
+	]
+}
+"Breakable.MatGlass"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float gain 0.7
+			$array source [string][
+				"physics/glass/glass_cup_break1.wav",
+				"physics/glass/glass_cup_break2.wav",
+				"physics/glass/glass_bottle_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Breakable.Computer"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Voice"
+			$vec2 gain [0.7,1.0]
+			$array source [string][
+				"ambient/energy/spark5.wav",
+				"ambient/energy/spark6.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bounce.Glass"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.900000
+			$float gain 0.7
+			$array source [string][
+				"physics/glass/glass_impact_hard1.wav",
+				"physics/glass/glass_impact_hard2.wav",
+				"physics/glass/glass_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bounce.Metal"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.900000
+			$float gain 0.7
+			$array source [string][
+				"physics/metal/metal_box_impact_hard1.wav",
+				"physics/metal/metal_box_impact_hard2.wav",
+				"physics/metal/metal_box_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bounce.Flesh"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.900000
+			$float gain 0.6
+			$array source [string][
+				"physics/flesh/flesh_squishy_impact_hard1.wav",
+				"physics/flesh/flesh_squishy_impact_hard2.wav",
+				"physics/flesh/flesh_squishy_impact_hard3.wav",
+				"physics/flesh/flesh_squishy_impact_hard4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bounce.Wood"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.900000
+			$float gain 0.7
+			$array source [string][
+				"physics/wood/wood_plank_impact_hard1.wav",
+				"physics/wood/wood_plank_impact_hard2.wav",
+				"physics/wood/wood_plank_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bounce.Shrapnel"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.900000
+			$float gain 0.7
+			$array source [string][
+				"weapons/fx/rics/ric1.wav",
+				"weapons/fx/rics/ric2.wav",
+				"weapons/fx/rics/ric3.wav",
+				"weapons/fx/rics/ric4.wav",
+				"weapons/fx/rics/ric5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bounce.ShotgunShell"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.5
+			$array source [string][
+				"weapons/fx/tink/shotgun_shell1.wav",
+				"weapons/fx/tink/shotgun_shell2.wav",
+				"weapons/fx/tink/shotgun_shell3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bounce.Shell"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.5
+			$array source [string][
+				"player/pl_shell1.wav",
+				"player/pl_shell2.wav",
+				"player/pl_shell3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Bounce.Concrete"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.900000
+			$float gain 0.7
+			$string source "physics/concrete/concrete_break2.wav"
+			$string mode mono
+		}
+	]
+}
+"ItemSoda.Bounce"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Weapon"
+			$float gain 0.5
+			$array source [string][
+				"physics/metal/metal_popcan_impact_hard1.wav",
+				"physics/metal/metal_popcan_impact_hard2.wav",
+				"physics/metal/metal_popcan_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Cardboard.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.5
+			$array source [string][
+				"physics/cardboard/cardboard_box_impact_soft1.wav",
+				"physics/cardboard/cardboard_box_impact_soft2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Cardboard.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.5
+			$array source [string][
+				"physics/cardboard/cardboard_box_impact_soft3.wav",
+				"physics/cardboard/cardboard_box_impact_soft4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Cardboard.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.6
+			$array source [string][
+				"physics/cardboard/cardboard_box_impact_soft1.wav",
+				"physics/cardboard/cardboard_box_impact_soft2.wav",
+				"physics/cardboard/cardboard_box_impact_soft3.wav",
+				"physics/cardboard/cardboard_box_impact_soft4.wav",
+				"physics/cardboard/cardboard_box_impact_soft5.wav",
+				"physics/cardboard/cardboard_box_impact_soft6.wav",
+				"physics/cardboard/cardboard_box_impact_soft7.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Cardboard.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.8
+			$array source [string][
+				"physics/cardboard/cardboard_box_impact_hard1.wav",
+				"physics/cardboard/cardboard_box_impact_hard2.wav",
+				"physics/cardboard/cardboard_box_impact_hard3.wav",
+				"physics/cardboard/cardboard_box_impact_hard4.wav",
+				"physics/cardboard/cardboard_box_impact_hard5.wav",
+				"physics/cardboard/cardboard_box_impact_hard6.wav",
+				"physics/cardboard/cardboard_box_impact_hard7.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Cardboard.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 1.0
+			$array source [string][
+				"physics/cardboard/cardboard_box_impact_bullet1.wav",
+				"physics/cardboard/cardboard_box_impact_bullet2.wav",
+				"physics/cardboard/cardboard_box_impact_bullet3.wav",
+				"physics/cardboard/cardboard_box_impact_bullet4.wav",
+				"physics/cardboard/cardboard_box_impact_bullet5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Cardboard.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.8
+			$array source [string][
+				"physics/cardboard/cardboard_box_strain1.wav",
+				"physics/cardboard/cardboard_box_strain2.wav",
+				"physics/cardboard/cardboard_box_strain3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Cardboard.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.8
+			$array source [string][
+				"physics/cardboard/cardboard_box_break1.wav",
+				"physics/cardboard/cardboard_box_break2.wav",
+				"physics/cardboard/cardboard_box_break3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Cardboard.Shake"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.6
+			$array source [string][
+				"physics/cardboard/cardboard_box_shake1.wav",
+				"physics/cardboard/cardboard_box_shake2.wav",
+				"physics/cardboard/cardboard_box_shake3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Cardboard.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.55
+			$bool loop 1
+			$string source "physics/cardboard/cardboard_box_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Cardboard.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.35
+			$bool loop 1
+			$string source "physics/cardboard/cardboard_box_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.5
+			$array source [string][
+				"physics/plastic/plastic_barrel_impact_soft1.wav",
+				"physics/plastic/plastic_barrel_impact_soft2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.5
+			$array source [string][
+				"physics/plastic/plastic_barrel_impact_soft3.wav",
+				"physics/plastic/plastic_barrel_impact_soft4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.6
+			$array source [string][
+				"physics/plastic/plastic_barrel_impact_soft1.wav",
+				"physics/plastic/plastic_barrel_impact_soft2.wav",
+				"physics/plastic/plastic_barrel_impact_soft3.wav",
+				"physics/plastic/plastic_barrel_impact_soft4.wav",
+				"physics/plastic/plastic_barrel_impact_soft5.wav",
+				"physics/plastic/plastic_barrel_impact_soft6.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.8
+			$array source [string][
+				"physics/plastic/plastic_barrel_impact_hard1.wav",
+				"physics/plastic/plastic_barrel_impact_hard2.wav",
+				"physics/plastic/plastic_barrel_impact_hard3.wav",
+				"physics/plastic/plastic_barrel_impact_hard4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 1.0
+			$array source [string][
+				"physics/plastic/plastic_barrel_impact_bullet1.wav",
+				"physics/plastic/plastic_barrel_impact_bullet2.wav",
+				"physics/plastic/plastic_barrel_impact_bullet3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.8
+			$array source [string][
+				"physics/plastic/plastic_barrel_strain1.wav",
+				"physics/plastic/plastic_barrel_strain2.wav",
+				"physics/plastic/plastic_barrel_strain3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 1.0
+			$array source [string][
+				"physics/plastic/plastic_barrel_break1.wav",
+				"physics/plastic/plastic_barrel_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.55
+			$bool loop 1
+			$string source "physics/plastic/plastic_barrel_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.35
+			$bool loop 1
+			$string source "physics/plastic/plastic_barrel_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plastic_Barrel.Roll"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.4
+			$bool loop 1
+			$string source "physics/plastic/plastic_barrel_roll_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Plastic_Box.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.3
+			$array source [string][
+				"physics/plastic/plastic_box_impact_soft1.wav",
+				"physics/plastic/plastic_box_impact_soft2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Box.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.3
+			$array source [string][
+				"physics/plastic/plastic_box_impact_soft3.wav",
+				"physics/plastic/plastic_box_impact_soft4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Box.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.6
+			$array source [string][
+				"physics/plastic/plastic_box_impact_soft1.wav",
+				"physics/plastic/plastic_box_impact_soft2.wav",
+				"physics/plastic/plastic_box_impact_soft3.wav",
+				"physics/plastic/plastic_box_impact_soft4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Box.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.8
+			$array source [string][
+				"physics/plastic/plastic_box_impact_hard1.wav",
+				"physics/plastic/plastic_box_impact_hard2.wav",
+				"physics/plastic/plastic_box_impact_hard3.wav",
+				"physics/plastic/plastic_box_impact_hard4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Box.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 1.0
+			$array source [string][
+				"physics/plastic/plastic_box_impact_bullet1.wav",
+				"physics/plastic/plastic_box_impact_bullet2.wav",
+				"physics/plastic/plastic_box_impact_bullet3.wav",
+				"physics/plastic/plastic_box_impact_bullet4.wav",
+				"physics/plastic/plastic_box_impact_bullet5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Box.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.8
+			$array source [string][
+				"physics/plastic/plastic_box_strain1.wav",
+				"physics/plastic/plastic_box_strain2.wav",
+				"physics/plastic/plastic_box_strain3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Box.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 1.0
+			$array source [string][
+				"physics/plastic/plastic_box_break1.wav",
+				"physics/plastic/plastic_box_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Plastic_Box.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.55
+			$bool loop 1
+			$string source "physics/plastic/plastic_box_scrape_smooth_loop2.wav"
+			$string mode mono
+		}
+	]
+}
+"Plastic_Box.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 0.35
+			$bool loop 1
+			$string source "physics/plastic/plastic_box_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Rubber.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.980000
+			$float gain 0.2
+			$string source "physics/rubber/rubber_tire_impact_soft1.wav"
+			$string mode mono
+		}
+	]
+}
+"Rubber.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 0.980000
+			$float gain 0.2
+			$string source "physics/rubber/rubber_tire_impact_soft1.wav"
+			$string mode mono
+		}
+	]
+}
+"Rubber.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.900000
+			$float gain 0.7
+			$string source "physics/rubber/rubber_tire_impact_bullet1.wav"
+			$string mode mono
+		}
+	]
+}
+"Rubber.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.4
+			$string source "physics/rubber/rubber_tire_impact_soft1.wav"
+			$string mode mono
+		}
+	]
+}
+"Rubber.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.5
+			$string source "physics/rubber/rubber_tire_impact_hard3.wav"
+			$string mode mono
+		}
+	]
+}
+"Rubber_Tire.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.6
+			$array source [string][
+				"physics/rubber/rubber_tire_impact_soft1.wav",
+				"physics/rubber/rubber_tire_impact_soft2.wav",
+				"physics/rubber/rubber_tire_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Rubber_Tire.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.8
+			$array source [string][
+				"physics/rubber/rubber_tire_impact_hard1.wav",
+				"physics/rubber/rubber_tire_impact_hard2.wav",
+				"physics/rubber/rubber_tire_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Rubber_Tire.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 0.960000
+			$float gain 1.0
+			$array source [string][
+				"physics/rubber/rubber_tire_impact_bullet1.wav",
+				"physics/rubber/rubber_tire_impact_bullet2.wav",
+				"physics/rubber/rubber_tire_impact_bullet3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Rubber_Tire.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$string soundType "Effect"
+			$float pitch 1.0
+			$float gain 0.8
+			$array source [string][
+				"physics/rubber/rubber_tire_strain1.wav",
+				"physics/rubber/rubber_tire_strain2.wav",
+				"physics/rubber/rubber_tire_strain3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Grenade.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.3
+			$array source [string][
+				"physics/metal/metal_grenade_impact_soft2.wav",
+				"physics/metal/metal_grenade_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Grenade.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float pitch 1.0
+			$float gain 0.3
+			$array source [string][
+				"physics/metal/metal_grenade_impact_soft1.wav",
+				"physics/metal/metal_grenade_impact_soft2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Grenade.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_grenade_impact_hard1.wav",
+				"physics/metal/metal_grenade_impact_hard2.wav",
+				"physics/metal/metal_grenade_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Grenade.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_grenade_impact_soft1.wav",
+				"physics/metal/metal_grenade_impact_soft2.wav",
+				"physics/metal/metal_grenade_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Grenade.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/metal/metal_grenade_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Grenade.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.3
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/metal/metal_grenade_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Grenade.Roll"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 1.0
+			$bool loop 1
+			$string source "physics/metal/metal_grenade_roll_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/wood1.wav",
+				"player/footsteps/wood3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/wood2.wav",
+				"player/footsteps/wood4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_solid_impact_bullet1.wav",
+				"physics/wood/wood_solid_impact_bullet2.wav",
+				"physics/wood/wood_solid_impact_bullet3.wav",
+				"physics/wood/wood_solid_impact_bullet4.wav",
+				"physics/wood/wood_solid_impact_bullet5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_plank_impact_soft1.wav",
+				"physics/wood/wood_box_impact_soft1.wav",
+				"physics/wood/wood_solid_impact_soft2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.960000
+			$array source [string][
+				"physics/wood/wood_box_impact_hard1.wav",
+				"physics/wood/wood_box_impact_hard2.wav",
+				"physics/wood/wood_box_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_solid_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_plank_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_plank_break2.wav",
+				"physics/wood/wood_plank_break3.wav",
+				"physics/wood/wood_plank_break4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_strain5.wav",
+				"physics/wood/wood_strain6.wav",
+				"physics/wood/wood_strain7.wav",
+				"physics/wood/wood_strain8.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Box.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_box_footstep1.wav",
+				"physics/wood/wood_box_footstep2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Box.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_box_footstep3.wav",
+				"physics/wood/wood_box_footstep4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Box.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_box_impact_bullet1.wav",
+				"physics/wood/wood_box_impact_bullet2.wav",
+				"physics/wood/wood_box_impact_bullet3.wav",
+				"physics/wood/wood_box_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Box.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_box_impact_soft1.wav",
+				"physics/wood/wood_box_impact_soft2.wav",
+				"physics/wood/wood_box_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Box.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_box_impact_hard4.wav",
+				"physics/wood/wood_box_impact_hard5.wav",
+				"physics/wood/wood_box_impact_hard6.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Box.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_box_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Box.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_box_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Box.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_box_break1.wav",
+				"physics/wood/wood_box_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Box.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_strain1.wav",
+				"physics/wood/wood_strain6.wav",
+				"physics/wood/wood_strain7.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Crate.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_box_footstep1.wav",
+				"physics/wood/wood_box_footstep2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Crate.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_box_footstep3.wav",
+				"physics/wood/wood_box_footstep4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Crate.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_crate_impact_soft1.wav",
+				"physics/wood/wood_crate_impact_soft2.wav",
+				"physics/wood/wood_crate_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Crate.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_crate_impact_hard4.wav",
+				"physics/wood/wood_crate_impact_hard5.wav",
+				"physics/wood/wood_panel_impact_hard1.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Crate.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_crate_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Crate.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_box_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Crate.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_crate_break1.wav",
+				"physics/wood/wood_crate_break2.wav",
+				"physics/wood/wood_crate_break3.wav",
+				"physics/wood/wood_crate_break4.wav",
+				"physics/wood/wood_crate_break5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Crate.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.940000
+			$array source [string][
+				"physics/wood/wood_strain3.wav",
+				"physics/wood/wood_strain6.wav",
+				"physics/wood/wood_strain8.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Plank.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_box_impact_bullet1.wav",
+				"physics/wood/wood_box_impact_bullet2.wav",
+				"physics/wood/wood_box_impact_bullet3.wav",
+				"physics/wood/wood_box_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Plank.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_plank_impact_soft1.wav",
+				"physics/wood/wood_plank_impact_soft2.wav",
+				"physics/wood/wood_plank_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Plank.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_plank_impact_hard1.wav",
+				"physics/wood/wood_plank_impact_hard2.wav",
+				"physics/wood/wood_plank_impact_hard3.wav",
+				"physics/wood/wood_plank_impact_hard4.wav",
+				"physics/wood/wood_plank_impact_hard5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Plank.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_plank_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Plank.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_plank_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Plank.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_plank_break1.wav",
+				"physics/wood/wood_plank_break2.wav",
+				"physics/wood/wood_plank_break3.wav",
+				"physics/wood/wood_plank_break4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Plank.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_strain1.wav",
+				"physics/wood/wood_strain2.wav",
+				"physics/wood/wood_strain4.wav",
+				"physics/wood/wood_strain7.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Solid.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_solid_impact_bullet1.wav",
+				"physics/wood/wood_solid_impact_bullet2.wav",
+				"physics/wood/wood_solid_impact_bullet3.wav",
+				"physics/wood/wood_solid_impact_bullet4.wav",
+				"physics/wood/wood_solid_impact_bullet5.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Solid.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_solid_impact_soft1.wav",
+				"physics/wood/wood_solid_impact_soft2.wav",
+				"physics/wood/wood_solid_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Solid.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_solid_impact_hard1.wav",
+				"physics/wood/wood_solid_impact_hard2.wav",
+				"physics/wood/wood_solid_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Solid.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_solid_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Solid.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_plank_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Solid.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 0.900000
+			$array source [string][
+				"physics/wood/wood_plank_break1.wav",
+				"physics/wood/wood_plank_break3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Solid.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.900000
+			$array source [string][
+				"physics/wood/wood_strain1.wav",
+				"physics/wood/wood_strain5.wav",
+				"physics/wood/wood_strain8.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Furniture.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_furniture_impact_soft1.wav",
+				"physics/wood/wood_furniture_impact_soft2.wav",
+				"physics/wood/wood_furniture_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Furniture.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_furniture_break1.wav",
+				"physics/wood/wood_furniture_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Furniture.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 1.000000
+			$array source [string][
+				"physics/wood/wood_strain4.wav",
+				"physics/wood/wood_strain5.wav",
+				"physics/wood/wood_strain6.wav",
+				"physics/wood/wood_strain7.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Panel.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/woodpanel1.wav",
+				"player/footsteps/woodpanel3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Panel.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"player/footsteps/woodpanel2.wav",
+				"player/footsteps/woodpanel4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Panel.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/wood/wood_box_impact_bullet1.wav",
+				"physics/wood/wood_box_impact_bullet2.wav",
+				"physics/wood/wood_box_impact_bullet3.wav",
+				"physics/wood/wood_box_impact_bullet4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Panel.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_box_impact_soft1.wav",
+				"physics/wood/wood_crate_impact_soft2.wav",
+				"physics/wood/wood_box_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Panel.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_crate_impact_hard2.wav",
+				"physics/wood/wood_crate_impact_hard3.wav",
+				"physics/wood/wood_panel_impact_hard1.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Panel.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_box_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Panel.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/wood/wood_box_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Wood_Panel.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_panel_break1.wav",
+				"physics/wood/wood_box_break1.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Wood_Panel.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/wood/wood_strain1.wav",
+				"physics/wood/wood_strain2.wav",
+				"physics/wood/wood_strain3.wav",
+				"physics/wood/wood_strain4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Box.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/metal_box_footstep1.wav",
+				"physics/metal/metal_box_footstep3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Box.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/metal_box_footstep2.wav",
+				"physics/metal/metal_box_footstep4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Box.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/metal/metal_box_impact_bullet1.wav",
+				"physics/metal/metal_box_impact_bullet2.wav",
+				"physics/metal/metal_box_impact_bullet3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Box.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_box_impact_soft1.wav",
+				"physics/metal/metal_box_impact_soft2.wav",
+				"physics/metal/metal_box_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Box.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_box_impact_hard1.wav",
+				"physics/metal/metal_box_impact_hard2.wav",
+				"physics/metal/metal_box_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Box.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/metal/metal_box_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Metal_Box.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.5
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/metal/metal_box_scrape_smooth_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"Metal_Box.Break"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.8
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_box_break1.wav",
+				"physics/metal/metal_box_break2.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Metal_Box.Strain"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/metal_box_strain1.wav",
+				"physics/metal/metal_box_strain2.wav",
+				"physics/metal/metal_box_strain3.wav",
+				"physics/metal/metal_box_strain4.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"Tst11"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "test/alltypes/sine1116m.wav"
+			$string mode mono
+		}
+	]
+}
+"Tstpitch11"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.010000
+			$string source "test/alltypes/sine1116m.wav"
+			$string mode mono
+		}
+	]
+}
+"Tst22"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "test/alltypes/sine2216m.wav"
+			$string mode mono
+		}
+	]
+}
+"Tstpitch22"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.010000
+			$string source "test/alltypes/sine2216m.wav"
+			$string mode mono
+		}
+	]
+}
+"Tst44"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "test/alltypes/sine4416ml.wav"
+			$string mode mono
+		}
+	]
+}
+"Tstpitch44"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 2.500000
+			$string source "test/alltypes/sine4416ml.wav"
+			$string mode mono
+		}
+	]
+}
+"Tstpitch44l"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 0.980000
+			$string source "test/alltypes/sine448sl.wav"
+			$string mode mono
+		}
+	]
+}
+"Tst448"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "test/alltypes/sine448m.wav"
+			$string mode mono
+		}
+	]
+}
+"Tstpitch448"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.010000
+			$string source "test/alltypes/sine448m.wav"
+			$string mode mono
+		}
+	]
+}
+"TstMusic"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "music/hl2_song1.mp3"
+			$bool stream 1
+			$string mode mono
+		}
+	]
+}
+"TstPitchMusic"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.200000
+			$string source "music/hl2_song1.mp3"
+			$bool stream 1
+			$string mode mono
+		}
+	]
+}
+"TstPitchMusicl"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 0.980000
+			$string source "music/hl2_song1.mp3"
+			$bool stream 1
+			$string mode mono
+		}
+	]
+}
+"TstADPCM"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.000000
+			$string source "test/alltypes/sine4416sadpcm.wav"
+			$string mode mono
+		}
+	]
+}
+"TstPitchADPCM"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.020000
+			$string source "test/alltypes/sine2216madpcm.wav"
+			$string mode mono
+		}
+	]
+}
+"TstPitchADPCMl"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 0.980000
+			$string source "test/alltypes/sine2216madpcm.wav"
+			$string mode mono
+		}
+	]
+}
+"weapon.StepLeft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "physics/metal/weapon_footstep1.wav"
+			$string mode mono
+		}
+	]
+}
+"weapon.StepRight"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 1.0
+			$string source "physics/metal/weapon_footstep2.wav"
+			$string mode mono
+		}
+	]
+}
+"weapon.ImpactSoft"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/weapon_impact_soft1.wav",
+				"physics/metal/weapon_impact_soft2.wav",
+				"physics/metal/weapon_impact_soft3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"weapon.ImpactHard"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.6
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/weapon_impact_hard1.wav",
+				"physics/metal/weapon_impact_hard2.wav",
+				"physics/metal/weapon_impact_hard3.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"weapon.BulletImpact"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.7
+			$float pitch 1.0
+			$array source [string][
+				"physics/plastic/plastic_box_impact_bullet5.wav",
+				"physics/metal/metal_computer_impact_bullet3.wav",
+				"physics/metal/metal_computer_impact_bullet1.wav"
+			]
+			$string mode mono
+		}
+	]
+}
+"weapon.ScrapeRough"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 0.750000
+			$bool loop 1
+			$string source "physics/metal/soda_can_scrape_rough_loop1.wav"
+			$string mode mono
+		}
+	]
+}
+"weapon.ScrapeSmooth"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 0.4
+			$float pitch 0.960000
+			$bool loop 1
+			$string source "physics/plastic/plastic_box_scrape_smooth_loop2.wav"
+			$string mode mono
+		}
+	]
+}
+"Metal.SawbladeStick"
+{
+	$array events [element][
+		{
+			$string type "playsound"
+			$float gain 1.0
+			$float pitch 0.980000
+			$array source [string][
+				"physics/metal/sawblade_stick1.wav",
+				"physics/metal/sawblade_stick2.wav",
+				"physics/metal/sawblade_stick3.wav"
+			]
+			$string mode mono
+		}
+	]
+}

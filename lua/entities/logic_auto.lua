@@ -1,0 +1,1 @@
+ents.register("logic_auto",{"logic_auto"},Entity.TYPE_LOCAL)

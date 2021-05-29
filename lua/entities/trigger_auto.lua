@@ -1,0 +1,1 @@
+ents.register("trigger_auto",{"trigger_auto"},Entity.TYPE_LOCAL)

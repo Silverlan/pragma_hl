@@ -1,0 +1,1 @@
+ents.register("ambient_generic",{"ambient_generic"},Entity.TYPE_SHARED)
