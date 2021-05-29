@@ -31,7 +31,6 @@ function ents.EnvFade:Initialize()
 end
 
 function ents.EnvFade:HandleInput(input,activator,caller,data)
-	debug.print("Input: ",input)
 	if(input == "fade") then
 		self:StartFade()
 	else return util.EVENT_REPLY_UNHANDLED end
@@ -39,7 +38,6 @@ function ents.EnvFade:HandleInput(input,activator,caller,data)
 end
 
 function ents.EnvFade:StartFade()
-	debug.print("StartFade")
 	local ent = self:GetEntity()
 	local ioComponent = ent:GetComponent(ents.COMPONENT_IO)
 	if(ioComponent ~= nil) then ioComponent:FireOutput("OnBeginFade",ent) end

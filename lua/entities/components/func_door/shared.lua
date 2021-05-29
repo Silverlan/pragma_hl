@@ -132,7 +132,7 @@ function ents.FuncDoor:HandleKeyValue(key,val)
 	elseif(key == "_minlight") then self:SetMinimumLightLevel(val)
 	elseif(key == "loopmovesound") then
 		local kinematicMover = self:GetEntity():GetComponent(ents.COMPONENT_KINEMATIC_MOVER)
-		if(kinematicMover ~= nil) then kinematicMover:SetStopSound(toboolean(val)) end
+		if(kinematicMover ~= nil) then kinematicMover:SetLoopMovingSound(toboolean(val)) end
 	else return util.EVENT_REPLY_UNHANDLED end
 	return util.EVENT_REPLY_HANDLED
 end
