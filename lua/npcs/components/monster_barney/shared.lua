@@ -1,6 +1,6 @@
 util.register_class("ents.MonsterBarney",BaseEntityComponent)
 
-local cvHealth = console.register_variable("sk_barney_health","100",bit.bor(console.FLAG_BIT_ARCHIVE,console.FLAG_BIT_REPLICATED),"Specifies barney's default health.")
+local cvHealth = console.register_variable("sk_barney_health",udm.TYPE_UINT32,100,bit.bor(console.FLAG_BIT_ARCHIVE,console.FLAG_BIT_REPLICATED),"Specifies barney's default health.")
 
 function ents.MonsterBarney:__init()
 	BaseEntityComponent.__init(self)

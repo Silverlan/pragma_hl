@@ -3,7 +3,7 @@ include("../shared.lua")
 
 function ents.FuncTrackTrain:ReceiveNetEvent(eventId,packet)
 	if(eventId == self.m_netEvMoveTargetChanged) then
-		self.m_currentTarget = packet:ReadEntity()
+		self:SetCurrentTarget(packet:ReadEntity())
 		
 		local kinematicMover = self:GetEntity():GetComponent(ents.COMPONENT_KINEMATIC_MOVER)
 		if(kinematicMover ~= nil) then kinematicMover:SetSpeed(packet:ReadFloat()) end
@@ -14,6 +14,6 @@ end
 function ents.FuncTrackTrain:ReceiveData(packet)
   self:FlagCallbackForRemoval(packet:ReadUniqueEntity(function(ent)
     if(self:IsValid() == false) then return end
-    self.m_currentTarget = ent
+    self:SetCurrentTarget(ent)
   end),ents.EntityComponent.CALLBACK_TYPE_COMPONENT)
 end

@@ -3,7 +3,7 @@ local MAX_MELEE_DAMAGE_RANGE = 80.0
 local MELEE_DAMAGE_CONE_ANGLE = 22.0
 local MELEE_DAMAGE_PUSH_FORCE = 500.0
 
-local cvMeleeDamage = console.register_variable("sk_zombie_melee_damage","24",console.FLAG_ARCHIVE,"Specifies the zombie's default melee damage.")
+local cvMeleeDamage = console.register_variable("sk_zombie_melee_damage",udm.TYPE_UINT32,24,console.FLAG_BIT_ARCHIVE,"Specifies the zombie's default melee damage.")
 
 local Component = ents.MonsterZombieComponent
 function Component:DealMeleeDamage(viewPunch)

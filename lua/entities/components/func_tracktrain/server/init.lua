@@ -26,6 +26,7 @@ function ents.FuncTrackTrain:OnEntitySpawn()
       local p = net.Packet()
       p:WriteEntity(entTgt)
       p:WriteFloat((kinematicMover ~= nil) and kinematicMover:GetSpeed() or 0.0)
+      print("X: ",net.PROTOCOL_SLOW_RELIABLE,self.m_netEvMoveTargetChanged)
       self:GetEntity():BroadcastNetEvent(net.PROTOCOL_SLOW_RELIABLE,self.m_netEvMoveTargetChanged,p)
       --self:TeleportToTarget()
     end

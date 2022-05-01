@@ -19,13 +19,13 @@ ents.FuncTrackAutoChange.TRAIN_FOLLOWING = 2
 local defaultMemberFlags = bit.band(ents.BaseEntityComponent.MEMBER_FLAG_DEFAULT,bit.bnot(bit.bor(ents.BaseEntityComponent.MEMBER_FLAG_BIT_KEY_VALUE,ents.BaseEntityComponent.MEMBER_FLAG_BIT_INPUT,ents.BaseEntityComponent.MEMBER_FLAG_BIT_OUTPUT)))
 local defaultMemberFlagsNw = bit.bor(defaultMemberFlags,ents.BaseEntityComponent.MEMBER_FLAG_BIT_NETWORKED,ents.BaseEntityComponent.MEMBER_FLAG_TRANSMIT_ON_CHANGE)
 
-ents.FuncTrackAutoChange:RegisterMember("TravelAltitude",util.VAR_TYPE_FLOAT,0.0,defaultMemberFlagsNw,1)
-ents.FuncTrackAutoChange:RegisterMember("SpinAmount",util.VAR_TYPE_FLOAT,0.0,defaultMemberFlagsNw,1)
-ents.FuncTrackAutoChange:RegisterMember("TrainToSwitch",util.VAR_TYPE_ENTITY,ents.get_null(),defaultMemberFlagsNw,1)
-ents.FuncTrackAutoChange:RegisterMember("TopTrack",util.VAR_TYPE_ENTITY,ents.get_null(),defaultMemberFlagsNw,1)
-ents.FuncTrackAutoChange:RegisterMember("BottomTrack",util.VAR_TYPE_ENTITY,ents.get_null(),defaultMemberFlagsNw,1)
+ents.FuncTrackAutoChange:RegisterMember("TravelAltitude",ents.MEMBER_TYPE_FLOAT,0.0,{},defaultMemberFlagsNw)
+ents.FuncTrackAutoChange:RegisterMember("SpinAmount",ents.MEMBER_TYPE_FLOAT,0.0,{},defaultMemberFlagsNw)
+ents.FuncTrackAutoChange:RegisterMember("TrainToSwitch",ents.MEMBER_TYPE_ENTITY,"",{},defaultMemberFlagsNw)
+ents.FuncTrackAutoChange:RegisterMember("TopTrack",ents.MEMBER_TYPE_ENTITY,"",{},defaultMemberFlagsNw)
+ents.FuncTrackAutoChange:RegisterMember("BottomTrack",ents.MEMBER_TYPE_ENTITY,"",{},defaultMemberFlagsNw)
 
-ents.FuncTrackAutoChange:RegisterMember("SpawnFlags",util.VAR_TYPE_UINT32,0,defaultMemberFlags,1)
+ents.FuncTrackAutoChange:RegisterMember("SpawnFlags",ents.MEMBER_TYPE_UINT32,0,{},defaultMemberFlags)
 
 function ents.FuncTrackAutoChange:__init()
 	BaseEntityComponent.__init(self)
@@ -41,7 +41,7 @@ function ents.FuncTrackAutoChange:Initialize()
 end
 
 function ents.FuncTrackAutoChange:OnTargetReached()
-	TODO:
+	--[[TODO:
 	Problem: func_trackautochange has no origin in source engine
 	-> origin is 0 0 0
 	-> rotation is around map origin
@@ -49,7 +49,7 @@ function ents.FuncTrackAutoChange:OnTargetReached()
 	- Either introduce origin and move faces of entity by the negative origin -> Probably better solution, faces can alyways only belong to one entity (because of numfaces range)
 	Calculated origin has to correspond with hammer entity origin
 	- or work with map origin in which case entity has to be MOVED for proper rotation!
-	Also: Make sure to apply velocity to parented kinematic entities
+	Also: Make sure to apply velocity to parented kinematic entities]]
 	local spinAmount = self:GetSpinAmount()
 	local trComponent = self:GetEntity():GetComponent(ents.COMPONENT_TRANSFORM)
 	if(trComponent ~= nil) then

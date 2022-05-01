@@ -10,7 +10,7 @@ Animation.RegisterEvent("EVENT_NPC_3")
 Animation.RegisterEvent("EVENT_SCRIPT_SOUND")
 
 game.load_sound_scripts("fx_npc_zombie.udm",true)
-local cvHealth = console.register_variable("sk_zombie_health","100",bit.bor(console.FLAG_BIT_ARCHIVE,console.FLAG_BIT_REPLICATED),"Specifies the zombie's default health.")
+local cvHealth = console.register_variable("sk_zombie_health",udm.TYPE_UINT32,100,bit.bor(console.FLAG_BIT_ARCHIVE,console.FLAG_BIT_REPLICATED),"Specifies the zombie's default health.")
 
 function Component:__init()
 	BaseEntityComponent.__init(self)
@@ -108,7 +108,9 @@ end
 function Component:PlayFootStepSound(footType,surfaceMaterial,moveScale)
 	local sndEmitterComponent = self:GetEntity():GetComponent(ents.COMPONENT_SOUND_EMITTER)
 	if(sndEmitterComponent ~= nil) then
-		sndEmitterComponent:EmitSound((footType == ents.CharacterComponent.FOOT_LEFT) and "npc_zombie.walk_step_left" or "npc_zombie.walk_step_right",sound.TYPE_EFFECT,1.0 *moveScale,1.0,false)
+		local sndInfo = ents.SoundEmitterComponent.SoundInfo(1.0 *moveScale,1.0)
+		sndInfo.transmit = false
+		sndEmitterComponent:EmitSound((footType == ents.CharacterComponent.FOOT_LEFT) and "npc_zombie.walk_step_left" or "npc_zombie.walk_step_right",sound.TYPE_EFFECT,sndInfo)
 	end
 	return util.EVENT_REPLY_HANDLED -- Overwrite default footstep sound
 end
