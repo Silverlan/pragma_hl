@@ -166,8 +166,9 @@ function ents.FuncTrackAutoChange:HandleInput(input, activator, caller, data)
 	end
 	return util.EVENT_REPLY_HANDLED
 end
-ents.COMPONENT_FUNC_TRACKAUTOCHANGE = ents.register_component(
+ents.register_component(
 	"func_trackautochange",
 	ents.FuncTrackAutoChange,
+	"logic",
 	ents.EntityComponent.FREGISTER_BIT_NETWORKED
 )

@@ -1,4 +1,4 @@
-util.register_class("ents.LogicAuto",BaseEntityComponent)
+util.register_class("ents.LogicAuto", BaseEntityComponent)
 
 ents.LogicAuto.GLOBAL_STATE_NONE = ""
 ents.LogicAuto.GLOBAL_STATE_GORDON_PRECRIMINAL = "gordon_precriminal"
@@ -21,44 +21,52 @@ end
 function ents.LogicAuto:Initialize()
 	BaseEntityComponent.Initialize(self)
 	self:AddEntityComponent(ents.COMPONENT_IO)
-	
-	self:BindEvent(Entity.EVENT_HANDLE_KEY_VALUE,"HandleKeyValue")
-	
+
+	self:BindEvent(Entity.EVENT_HANDLE_KEY_VALUE, "HandleKeyValue")
+
 	self.m_spawnFlags = 0
 	self.m_globalState = ents.LogicAuto.GLOBAL_STATE_NONE
 end
 
 function ents.LogicAuto:OnRemove()
-	if(util.is_valid(self.m_cbOnMapSpawn)) then self.m_cbOnMapSpawn:Remove() end
+	if util.is_valid(self.m_cbOnMapSpawn) then
+		self.m_cbOnMapSpawn:Remove()
+	end
 end
 
 function ents.LogicAuto:OnEntitySpawn()
-	if(game.is_map_loaded()) then
+	if game.is_map_loaded() then
 		self:Trigger()
 		return
 	end
-	
-	self.m_cbOnMapSpawn = game.add_callback("OnMapLoaded",function()
-		if(util.is_valid(self.m_cbOnMapSpawn)) then self.m_cbOnMapSpawn:Remove() end
+
+	self.m_cbOnMapSpawn = game.add_callback("OnMapLoaded", function()
+		if util.is_valid(self.m_cbOnMapSpawn) then
+			self.m_cbOnMapSpawn:Remove()
+		end
 		local ent = self:GetEntity()
 		local ioComponent = ent:GetComponent(ents.COMPONENT_IO)
-		if(ioComponent ~= nil) then
-			ioComponent:FireOutput("OnNewGame",ent,ents.IOComponent.IO_FLAG_BIT_FORCE_DELAYED_FIRE) -- TODO
-			ioComponent:FireOutput("OnMapSpawn",ent,ents.IOComponent.IO_FLAG_BIT_FORCE_DELAYED_FIRE)
+		if ioComponent ~= nil then
+			ioComponent:FireOutput("OnNewGame", ent, ents.IOComponent.IO_FLAG_BIT_FORCE_DELAYED_FIRE) -- TODO
+			ioComponent:FireOutput("OnMapSpawn", ent, ents.IOComponent.IO_FLAG_BIT_FORCE_DELAYED_FIRE)
 		end
-		if(self.m_spawnFlags ~= nil and bit.band(self.m_spawnFlags,ents.LogicAuto.SF_REMOVE_ON_FIRE) ~= 0) then self:GetEntity():RemoveSafely() end
+		if self.m_spawnFlags ~= nil and bit.band(self.m_spawnFlags, ents.LogicAuto.SF_REMOVE_ON_FIRE) ~= 0 then
+			self:GetEntity():RemoveSafely()
+		end
 	end)
---[[
+	--[[
 	TODO: OnNewGame, OnLoadGame, OnMapTransition, OnBackgroundMap, OnMultiNewMap, OnMultiNewRound
 ]]
 end
 
-function ents.LogicAuto:HandleKeyValue(key,val)
-	if(key == "spawnflags") then
+function ents.LogicAuto:HandleKeyValue(key, val)
+	if key == "spawnflags" then
 		self.m_spawnFlags = tonumber(val)
-	elseif(key == "globalstate") then
+	elseif key == "globalstate" then
 		self.m_globalState = tonumber(val)
-	else return util.EVENT_REPLY_UNHANDLED end
+	else
+		return util.EVENT_REPLY_UNHANDLED
+	end
 	return util.EVENT_REPLY_HANDLED
 end
-ents.COMPONENT_LOGIC_AUTO = ents.register_component("logic_auto",ents.LogicAuto,ents.EntityComponent.FREGISTER_NONE)
+ents.register_component("logic_auto", ents.LogicAuto, "logic", ents.EntityComponent.FREGISTER_NONE)
