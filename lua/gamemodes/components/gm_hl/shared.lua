@@ -9,4 +9,4 @@ function Component:Initialize()
 		self:BindEvent(ents.GamemodeComponent.EVENT_ON_GAME_READY, "InitializeReflectionProbe")
 	end
 end
-ents.register_component("gm_hl", "hl", Component)
+ents.register_component("gm_hl", Component, "hl")

@@ -291,4 +291,4 @@ function ents.ScriptedSequence:HandleKeyValue(key, val)
 	end
 	return util.EVENT_REPLY_HANDLED
 end
-ents.register_component("scripted_sequence", ents.ScriptedSequence, "hl", ents.EntityComponent.FREGISTER_BIT_NETWORKED)
+ents.register_component("scripted_sequence", ents.ScriptedSequence, "ai", ents.EntityComponent.FREGISTER_BIT_NETWORKED)

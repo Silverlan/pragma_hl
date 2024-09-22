@@ -58,4 +58,4 @@ function ents.TriggerAuto:HandleKeyValue(key, val)
 	end
 	return util.EVENT_REPLY_HANDLED
 end
-ents.register_component("trigger_auto", ents.TriggerAuto, "hl", ents.EntityComponent.FREGISTER_NONE)
+ents.register_component("trigger_auto", ents.TriggerAuto, "gameplay", ents.EntityComponent.FREGISTER_NONE)

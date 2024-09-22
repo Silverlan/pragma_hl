@@ -168,4 +168,4 @@ function ents.TriggerOnce:OnEntitySpawn()
 		end
 	end
 end
-ents.register_component("trigger_once", "hl", ents.TriggerOnce)
+ents.register_component("trigger_once", ents.TriggerOnce, "physics/triggers")

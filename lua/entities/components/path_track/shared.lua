@@ -112,4 +112,4 @@ function ents.PathTrack:HandleKeyValue(key, val)
 	end
 	return util.EVENT_REPLY_HANDLED
 end
-ents.register_component("path_track", ents.PathTrack, "hl", ents.EntityComponent.FREGISTER_BIT_NETWORKED)
+ents.register_component("path_track", ents.PathTrack, "gameplay", ents.EntityComponent.FREGISTER_BIT_NETWORKED)

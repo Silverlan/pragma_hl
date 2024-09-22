@@ -94,4 +94,4 @@ function ents.TriggerChangelevel:OnEntitySpawn()
 		end
 	end
 end
-ents.register_component("trigger_changelevel", "hl", ents.TriggerChangelevel)
+ents.register_component("trigger_changelevel", ents.TriggerChangelevel, "physics/triggers")
