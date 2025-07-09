@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: (c) 2021 Silverlan <opensource@pragma-engine.com>
+-- SPDX-License-Identifier: MIT
+
 util.register_class("ents.KinematicMover", BaseEntityComponent)
 
 ents.KinematicMover.MOVE_STATE_IDLE = 0

@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: (c) 2021 Silverlan <opensource@pragma-engine.com>
+-- SPDX-License-Identifier: MIT
+
 if(CLIENT == true) then locale.load("npc_zombie.txt")
 else resource.add_lua_file("hl1_zombie.lua") end
 

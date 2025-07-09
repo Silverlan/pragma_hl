@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: (c) 2021 Silverlan <opensource@pragma-engine.com>
+-- SPDX-License-Identifier: MIT
+
 if SERVER then
 	include("/ai/tasks/task_move_to_position.lua")
 end

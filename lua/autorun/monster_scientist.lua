@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: (c) 2021 Silverlan <opensource@pragma-engine.com>
+-- SPDX-License-Identifier: MIT
+
 if(CLIENT == true) then locale.load("monster_scientist.txt")
 else resource.add_lua_file("monster_scientist.lua") end
 

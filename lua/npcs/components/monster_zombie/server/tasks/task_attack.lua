@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: (c) 2021 Silverlan <opensource@pragma-engine.com>
+-- SPDX-License-Identifier: MIT
+
 local MAX_ATTACK_DISTANCE = 50.0
 
 util.register_class("ai.TaskZombieCanAttack",ai.BaseBehaviorTask)

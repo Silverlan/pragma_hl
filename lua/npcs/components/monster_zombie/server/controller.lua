@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: (c) 2021 Silverlan <opensource@pragma-engine.com>
+-- SPDX-License-Identifier: MIT
+
 include("/ai/tasks/controller/task_controller_move.lua")
 include("/ai/tasks/controller/task_controller_check_input.lua")
 

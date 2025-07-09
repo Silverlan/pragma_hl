@@ -1,3 +1,5 @@
+-- SPDX-FileCopyrightText: (c) 2021 Silverlan <opensource@pragma-engine.com>
+-- SPDX-License-Identifier: MIT
 
 local MAX_MELEE_DAMAGE_RANGE = 80.0
 local MELEE_DAMAGE_CONE_ANGLE = 22.0

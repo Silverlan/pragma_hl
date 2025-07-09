@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: (c) 2021 Silverlan <opensource@pragma-engine.com>
+-- SPDX-License-Identifier: MIT
+
 util.register_class("ents.TriggerOnce", BaseEntityComponent)
 
 ents.TriggerOnce.SF_CLIENTS = 1
